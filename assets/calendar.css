@@ -183,7 +183,7 @@ font-family: system-ui, sans-serif;
 ********** New calendar style *******
 *************************************/
 .calendar-day {
-  margin-top: 30px;
+  margin-top: 10px;
   position: inherit;
 }
 

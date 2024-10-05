@@ -13,230 +13,263 @@
  *   #b8860b; Dark Goldenrod, color for links
  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
+ @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 
-*{
-    border:0;
-    font:inherit;
-    font-size:1em;
-    margin:0;
-    padding:0;
-    vertical-align:baseline;
-}
-
-body{
-    background-color: #fafafa;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #505050;
-    text-align:left;
-    font-family:'Roboto',sans-serif;
-    font-size:1em;
-    line-height:1.5em;
-    margin: 0 auto;
-    /*width: 1000px;*/
-    width: 80%;
-}
-
-a.navigation{color: #ffffff; text-decoration:none;}
-/*a.current{color: #c5c5c5; text-decoration:none;}*/
-/*a:hover{color: #b2132e;}*/
-/*a:active{color: #e82945;}*/
-
-p.navigation{
-  text-align: center;
-}
-
-/*
-a{color: #b8860b; text-decoration:none;}
-a.current{color: #52739e;}
-a.current:hover{color: #e82945;}
-a:hover{color: #b2132e;}
-a:active{color: #e82945;}
-*/
-h1,h2,h3,h4{clear:left; color: #000000; margin:1.5em 0em 1em 0em; font-family:'Times New Roman', Times, serif; text-shadow: 1px 1px 2px #d0d0d0;}
-h1{font-size:2.67em;}
-h2{font-size:2.00em;}
-h3{font-size:1.67em;}
-h4{font-size:1.33em;}
-p{
-  list-style:none;
-  /*margin:24px auto 24px auto;*/
-  padding:0px;
-  text-align:left;
-}
-
-li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
-ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
-ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
-i,em{font-style:italic;}
-b,strong{font-weight:bold;}
-sup{
-    vertical-align: super;
-    font-size: 0.8em;
-    line-height: 0;
-}
-sub{
-    vertical-align: sub;
-    font-size: 0.8em;
-    line-height: 0;
-}
-table{
-    /*width: 1000px;*/
-    margin: 0px;
-    float: center;
-    /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
-    /*border: 1px solid black;*/
-}
-th,td{
-    text-align: left;
-    /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
-    /*border: 1px solid black;*/
-}
-
-/* Website Banner */
-.banner {position: relative; font-family:'Roboto Slab',serif;}
-.top-left {font-size:4.00em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
-.bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
-
-/* Conference Title Logo */
-.title1{color: #0019b7; text-shadow: 1px 1px 3px #c0c0c0;} 
-.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
-.year{color: #505050; font-size:0.67em; font-weight: lighter;}
-
-/* Navigation Links (Home, Registration, etc) */
-table.navigation{
-    width:100%;
-    background-color: #0d5eba;
-}
-
-td.navigation{
-    font-size:1em;
-    white-space:nowrap;
-    width:20%;
-    text-align:center;
-    vertical-align:middle;
-    /*padding-bottom: 10px;
-    padding-top: 10px;*/
-    line-height: 2.0em;
-}
-
-td.navigation:hover {
-    background-color: #1281ff;
-}
-
-/* Sponsor Images */
-table.sponsors{width:100%;}
-td.sponsor{
-    white-space:nowrap;
-    width:20%;
-    text-align:center;
-    vertical-align:middle;
-    padding:0px 0px 20px 0px;
-}
-
-td.sponsor img{
-    width: 100px;
-    height: 100px;
-}
-
-div.sponsor {
-    white-space:nowrap;
-    text-align:center;
-    vertical-align:middle;
-    padding:0px 0px 25px 0px;
-    display: inline-block;
-    width: 20%;
-}
-
-div.sponsor img{
-    width: 100px;
-    height: 100px;
-}
-
-.sponsors-container {
+ *{
+     border:0;
+     font:inherit;
+     font-size:1em;
+     margin:0;
+     padding:0;
+     vertical-align:baseline;
+ }
+ 
+ body{
+     background-color: #fafafa;
+     background-size: cover;
+     background-attachment: fixed;
+     color: #505050;
+     text-align:left;
+     font-family:'Roboto',sans-serif;
+     font-size:1em;
+     line-height:1.5em;
+     margin: 0 auto;
+     /*width: 1000px;*/
+     width: 80%;
+ }
+ 
+ a.navigation{color: #ffffff; text-decoration:none;}
+ /*a.current{color: #c5c5c5; text-decoration:none;}*/
+ /*a:hover{color: #b2132e;}*/
+ /*a:active{color: #e82945;}*/
+ 
+ p.navigation{
+   text-align: center;
+ }
+ 
+ /*
+ a{color: #b8860b; text-decoration:none;}
+ a.current{color: #52739e;}
+ a.current:hover{color: #e82945;}
+ a:hover{color: #b2132e;}
+ a:active{color: #e82945;}
+ */
+ h1,h2,h3,h4{clear:left; color: #000000; margin:1.5em 0em 1em 0em; font-family:'Times New Roman', Times, serif; text-shadow: 1px 1px 2px #d0d0d0;}
+ h1{font-size:2.67em;}
+ h2{font-size:2.00em;}
+ h3{font-size:1.67em;}
+ h4{font-size:1.33em;}
+ p{
+   list-style:none;
+   /*margin:24px auto 24px auto;*/
+   padding:0px;
+   text-align:left;
+ }
+ 
+ li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
+ ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
+ ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
+ i,em{font-style:italic;}
+ b,strong{font-weight:bold;}
+ sup{
+     vertical-align: super;
+     font-size: 0.8em;
+     line-height: 0;
+ }
+ sub{
+     vertical-align: sub;
+     font-size: 0.8em;
+     line-height: 0;
+ }
+ table{
+     /*width: 1000px;*/
+     margin: 0px;
+     float: center;
+     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
+     /*border: 1px solid black;*/
+ }
+ th,td{
+     text-align: left;
+     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
+     /*border: 1px solid black;*/
+ }
+ 
+ /* Website Banner */
+ .banner {position: relative; font-family:'Roboto Slab',serif;}
+ .top-left {font-size:4.00em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
+ .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
+ 
+ /* Conference Title Logo */
+ .title1{color: #0019b7; text-shadow: 1px 1px 3px #c0c0c0;} 
+ .title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
+ .year{color: #505050; font-size:0.67em; font-weight: lighter;}
+ 
+ /* Navigation Links (Home, Registration, etc) */
+ table.navigation{
+     width:100%;
+     background-color: #0d5eba;
+ }
+ 
+ td.navigation{
+     font-size:1em;
+     white-space:nowrap;
+     width:20%;
+     text-align:center;
+     vertical-align:middle;
+     /*padding-bottom: 10px;
+     padding-top: 10px;*/
+     line-height: 2.0em;
+ }
+ 
+ td.navigation:hover {
+     background-color: #1281ff;
+ }
+ 
+ /* Sponsor Images */
+ table.sponsors{width:100%;}
+ td.sponsor{
+     white-space:nowrap;
+     width:20%;
+     text-align:center;
+     vertical-align:middle;
+     padding:0px 0px 20px 0px;
+ }
+ 
+ td.sponsor img{
+     width: 100px;
+     height: 100px;
+ }
+ 
+ div.sponsor {
+     white-space:nowrap;
+     text-align:center;
+     vertical-align:middle;
+     padding:0px 0px 25px 0px;
+     display: inline-block;
+     width: 20%;
+ }
+ 
+ div.sponsor img{
+     width: 100px;
+     height: 100px;
+ }
+ 
+ .sponsors-container {
+     width: 100%;
+     text-align: center;
+ }
+ 
+ div.scientist {
+   white-space:nowrap;
+   text-align:center;
+   vertical-align:middle;
+   padding:0px 0px 25px 0px;
+   display: inline-block;
+   width: 18%;
+ }
+ 
+ div.scientist img{
+   width: 100px;
+   height: 100px;
+ }
+ 
+ .scientists-container {
+   width: 100%;
+   text-align: center;
+ }
+ 
+ /* The Table on the Program Page */
+ td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
+ td.date{white-space:nowrap; width:130px; text-align:right; vertical-align:top; padding:4px 16px 0px 0px;}
+ td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: black; height:32px; font-family:'Times New Roman', Times, serif; text-shadow: 1px 1px 2px #d0d0d0; }
+ td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: black; height:32px; font-family:'Times New Roman', Times, serif; text-shadow: 1px 1px 2px #d0d0d0;}
+ td.speaker, p.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
+ td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px}
+ td.abstract img{display: block; margin: 4px auto 8px auto}
+ table.plenary{padding-top: 8px; background: #ffffff;}
+ 
+ /* Registration and Directions iframes and Images */
+ iframe.registration{display:block; margin:1em auto 2em auto; width:700px; height:1400px; border:none;}
+ iframe.directions{display:block; margin:1em auto 2em auto; width:800px; height:400px; border:none;}
+ img.center{display:block; width:67%; margin:1em auto 2em auto;}
+ 
+ /* Flyer Images */
+ table.flyers{width:800px;}
+ td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+ td.flyers img{width: 100%}
+ 
+ footer{font-size:0.875em; margin-top:12em; text-align:center;}
+ 
+ .collapsible {
+     background-color: transparent;
+     color: #505050;
+     cursor: pointer;
+ }
+ 
+button.collapsible {
     width: 100%;
-    text-align: center;
+    line-height: 3em;
 }
 
-div.scientist {
-  white-space:nowrap;
-  text-align:center;
-  vertical-align:middle;
-  padding:0px 0px 25px 0px;
-  display: inline-block;
-  width: 15%;
-}
-
-div.scientist img{
-  width: 100px;
-  height: 100px;
-}
-
-.scientists-container {
-  width: 100%;
-  text-align: center;
-}
-
-/* The Table on the Program Page */
-td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
-td.date{white-space:nowrap; width:130px; text-align:right; vertical-align:top; padding:4px 16px 0px 0px;}
-td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: black; height:32px; font-family:'Times New Roman', Times, serif; text-shadow: 1px 1px 2px #d0d0d0; }
-td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: black; height:32px; font-family:'Times New Roman', Times, serif; text-shadow: 1px 1px 2px #d0d0d0;}
-td.speaker, p.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
-td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px}
-td.abstract img{display: block; margin: 4px auto 8px auto}
-table.plenary{padding-top: 8px; background: #ffffff;}
-
-/* Registration and Directions iframes and Images */
-iframe.registration{display:block; margin:1em auto 2em auto; width:700px; height:1400px; border:none;}
-iframe.directions{display:block; margin:1em auto 2em auto; width:800px; height:400px; border:none;}
-img.center{display:block; width:67%; margin:1em auto 2em auto;}
-
-/* Flyer Images */
-table.flyers{width:800px;}
-td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-td.flyers img{width: 100%}
-
-footer{font-size:0.875em; margin-top:12em; text-align:center;}
-
-.collapsible {
-    background-color: transparent;
-    color: #505050;
-    cursor: pointer;
+button.collapsible:hover {
+    background-color: lightskyblue;
+    color: white;
 }
 
 .when-container {
-    display: grid;
-    grid-template-columns: auto auto;
+     display: grid;
+     grid-template-columns: auto auto;
+ }
+ 
+ .when-label {
+     display: inline-block;
+ }
+ 
+ .when-date {
+     font-size: 1.5em;
+     line-height: 1.5em;
+     text-align: center;
+     margin-bottom: 3em;
+ }
+ 
+ .gmt-label {
+     display: inline-block;
+     text-align: right;
+     margin-top: 4em;
+ }
+ 
+ .timezone-box {
+     padding: 10px;
+ }
+ 
+ .talk-time-utc {
+     display: none;
+ }
+ 
+ .congress-name {
+     text-align: center;
+     margin-top: 1em;
+     margin-bottom: 0.5em;
+ }
+ 
+.kauffman {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 3em;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.when-label {
-    display: inline-block;
-}
-
-.gmt-label {
-    display: inline-block;
-    text-align: right;
-}
-
-.timezone-box {
-    padding: 10px;
-}
-
-.talk-time-utc {
-    display: none;
-}
-
-/* My hacky way of making the site mobile-friendly */
-@media only screen and (max-width: 1100px) {
-    body {width: 95%;}
-    td.navigation{font-size:1.5em; padding:0px 20px 0px 20px;}
-    /*
-    h2{font-size:3.00em;}
-    p{font-size:1.5em; line-height:1.5em;}
-    th,td,tr{font-size:1.5em; line-height:1.5em;}
-    td.date{font-size:1em; padding-top:0.5em;}
-    table.footer{font-size:0.33em;}
-    */
-}
+ /* My hacky way of making the site mobile-friendly */
+ @media only screen and (max-width: 1100px) {
+     body {width: 95%;}
+     td.navigation{font-size:1.5em; padding:0px 20px 0px 20px;}
+     /*
+     h2{font-size:3.00em;}
+     p{font-size:1.5em; line-height:1.5em;}
+     th,td,tr{font-size:1.5em; line-height:1.5em;}
+     td.date{font-size:1em; padding-top:0.5em;}
+     table.footer{font-size:0.33em;}
+     */
+ }
+ 
