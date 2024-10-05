@@ -258,6 +258,8 @@ button.collapsible:hover {
     margin-top: 10px;
     margin-bottom: 3em;
     font-family: 'Times New Roman', Times, serif;
+    text-shadow: none;
+    color: #505050;
 }
 
  /* My hacky way of making the site mobile-friendly */
