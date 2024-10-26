@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://knots-congress.github.io/sitemap.xml
