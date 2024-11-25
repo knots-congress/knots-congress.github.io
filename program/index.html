@@ -3,8 +3,8 @@
 
 <head>
     <base href="..">
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
-    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="/assets/main.css"/>
     <script type="text/javascript" async
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=default">
     </script>
@@ -21,8 +21,7 @@
                 <table id="${id}">
                     <tr>
                         <td class="date" rowspan="3">
-                            <div duration="${duration}" class="talk-time-utc">${start}</div>
-                            <div class="talk-time-value"></div>
+                            <div class="talk-time-value" talk_time_utc="${start}" duration="${duration}"></div>
                         </td>
                         <td class="title">
                             ${title}
@@ -101,17 +100,19 @@
         </div>
         <div class="gmt-label">
           <select name="timezone_offset" id="timezone-offset" class="timezone-box" onchange="gmtChange(this)"/>
-            <option value="-07.00">CA time</option>
-            <option value="-05.00">Chicago time</option>
-            <option value="-04.00">NY time</option>
-            <option value="+00.00">UK time</option>
-            <option value="+02.00">Athens time</option>
-            <option value="+03.00">Moscow time</option>
-            <option value="+08.00">China time</option>
-            <option value="+09.00">Japan time</option>
+            <option value="-08:00">PST/Los Angeles</option>
+            <option value="-06:00">CST/Chicago</option>
+            <option value="-05:00">EST/New York</option>
+            <option value="+00:00">GMT/London</option>
+            <option value="+01:00">CET/Paris</option>
+            <option value="+02:00">EET/Athens</option>
+            <option value="+03:00">MSK/Moscow</option>
+            <option value="+07:00">ICT/Bangkok</option>
+            <option value="+08:00">CST/Beijing</option>
+            <option value="+09:00">JST/Tokio</option>
           </select>
         </div>
-      </div>
+    </div>
 
     <div id="content-container"></div>
 

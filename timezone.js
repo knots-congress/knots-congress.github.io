@@ -1,26 +1,28 @@
 Date.prototype.addHours= function(value){
     var hours = Number.parseFloat(value)
-    this.setHours(this.getHours()+hours);
+    this.setHours(this.getHours() + hours);
     return this;
 }
 
 function gmtChange(self){
   var value = self.value;
-  var time_elements_utc = document.getElementsByClassName('talk-time-utc');
-  var time_elements_value = document.getElementsByClassName('talk-time-value');
+  var time_elements = document.querySelectorAll(' div[talk_time_utc]');
   var i;
-  for (i=0; i < time_elements_utc.length; i++){
-    var time_element_utc = time_elements_utc[i];
-    var time_element_val = time_elements_value[i];
-    var start_datetime = (new Date(time_element_utc.innerHTML)).addHours(value)
-    var duration = Number.parseFloat(time_element_utc.getAttribute('duration'));
+  for (i=0; i < time_elements.length; i++){
+    var item = time_elements[i];
+    var start_datetime = (new Date(item.getAttribute(`talk_time_utc`))).addHours(value);
+    var duration = Number.parseFloat(item.getAttribute('duration'));
     var end_datetime = new Date(start_datetime).addHours(duration);
-    var date = start_datetime.toDateString();
+    var s_yy = start_datetime.getUTCFullYear();
+    var s_mm = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"].at(start_datetime.getUTCMonth());
+    var s_date = start_datetime.getUTCDate();
+    var s_day = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].at(start_datetime.getUTCDay());
+    var date = `${s_day} ${s_mm} ${s_date} ${s_yy}`;
     var s_hh = start_datetime.getUTCHours().toString().padStart(2,0);
     var s_mm = start_datetime.getUTCMinutes().toString().padStart(2,0);
     var e_hh = end_datetime.getUTCHours().toString().padStart(2,0);
     var e_mm = end_datetime.getUTCMinutes().toString().padStart(2,0);
-    time_element_val.innerHTML = `<p>&#128467; ${date}</p><p>&#128337; ${s_hh}:${s_mm} - ${e_hh}:${e_mm}</p>`;
+    item.innerHTML = `<p>&#128467; ${date}</p><p>&#128337; ${s_hh}:${s_mm} - ${e_hh}:${e_mm}</p>`;
   }
 }
 
