@@ -72,12 +72,7 @@
                     const parts_html = ['<h3>First part</h3>', '<h3>Second part</h3>', '<h3>Third part</h3>']
                     content += parts_html[part];
                     for (let section=0; section < all_talks[day][part].length; section++){
-                        if (section == 0){
-                          content += '<div class="event securities start-1 plenary">';
-                          content += createTaskFromJs(day+1, part+1, -1, -1, all_talks[day][part][section]);
-                          content += '</div>';
-                        }
-                        else {
+                        if (Array.isArray(all_talks[day][part][section])){
                           content += '<div class="short-container">'
                           for (let talk=0; talk <  all_talks[day][part][section].length; talk++){
                             content += '<div class="event writing start-2 short">';
@@ -85,6 +80,11 @@
                             content += '</div>';
                           }
                           content += '</div>'
+                        }
+                        else {
+                          content += '<div class="event securities start-1 plenary">';
+                          content += createTaskFromJs(day+1, part+1, -1, -1, all_talks[day][part][section]);
+                          content += '</div>';
                         }
                     }
                 }

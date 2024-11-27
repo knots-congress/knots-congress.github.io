@@ -56,13 +56,13 @@
                 content += `<h2>${day_names[day]}</h2>`
                 for (let part=0; part < all_talks[day].length; part++){
                     for (let section=0; section < all_talks[day][part].length; section++){
-                        if (section == 0){
-                            content += createTaskFromJs(day+1, part+1, -1, -1, all_talks[day][part][section]);
-                        }
-                        else {
+                        if (Array.isArray(all_talks[day][part][section])){
                             for (let talk=0; talk <  all_talks[day][part][section].length; talk++){
                                 content += createTaskFromJs(day+1, part+1, section, talk+1, all_talks[day][part][section][talk]);
                             }
+                        }
+                        else {
+                            content += createTaskFromJs(day+1, part+1, -1, -1, all_talks[day][part][section]);
                         }
                     }
                 }

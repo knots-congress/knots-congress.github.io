@@ -3,10 +3,10 @@ function get_all_talks(){
     [// day 1
       [// part 1
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Mikhail Khovanov",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-01T12:00:00Z",
           duration: 1.0,
         },
@@ -65,13 +65,22 @@ function get_all_talks(){
       ],
       [ // part 2
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Jacob Rasmussen",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-01T18:00:00Z",
           duration: 1.0,
         },
+        {// plenary talk
+          speaker: "Sergei Gukov",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
+          start: "2025-02-01T19:00:00Z",
+          duration: 1.0,
+        },
+        /*
         [
           {
             speaker: "Speaker Name",
@@ -98,6 +107,7 @@ function get_all_talks(){
             duration: 1.0,
           }
         ],
+        */
         [
           {
             speaker: "Speaker Name",
@@ -191,10 +201,10 @@ function get_all_talks(){
     [// day 2
       [// part 1
         {// plenary talk
-          speaker: "Speaker Name",
+          speaker: "Victor Vassiliev",
           university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-02T12:00:00Z",
           duration: 1.0,
         },
@@ -253,10 +263,10 @@ function get_all_talks(){
       ],
       [ // part 2
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Dror Bar-Natan",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-02T18:00:00Z",
           duration: 1.0,
         },
@@ -315,10 +325,10 @@ function get_all_talks(){
       ],
       [ // part 3
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Akio Kawauchi",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-03T01:00:00Z",
           duration: 1.0,
         },
@@ -348,6 +358,7 @@ function get_all_talks(){
             duration: 1.0,
           }
         ],
+        /*
         [
           {
             speaker: "Speaker Name",
@@ -374,15 +385,24 @@ function get_all_talks(){
             duration: 1.0,
           }
         ]
+        */
+        {// plenary talk
+          speaker: "Edward Witten",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstact: TBA",
+          start: "2025-02-03T03:00:00Z",
+          duration: 1.0,
+        },
       ]
     ],
     [// day 3
       [// part 1
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Vassily Manturov",
+          university: "Moscow Institute of Physics and Technology",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-03T12:00:00Z",
           duration: 1.0,
         },
@@ -441,10 +461,10 @@ function get_all_talks(){
       ],
       [ // part 2
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Louis Kauffman",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-03T18:00:00Z",
           duration: 1.0,
         },
@@ -503,10 +523,10 @@ function get_all_talks(){
       ],
       [ // part 3
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Ciprian Manolescu",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-04T01:00:00Z",
           duration: 1.0,
         },
@@ -567,10 +587,10 @@ function get_all_talks(){
     [// day 4
       [// part 1
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Vladimir Turaev",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-04T12:00:00Z",
           duration: 1.0,
         },
@@ -629,10 +649,10 @@ function get_all_talks(){
       ],
       [ // part 2
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Lisa Picirillo",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-04T18:00:00Z",
           duration: 1.0,
         },
@@ -691,10 +711,10 @@ function get_all_talks(){
       ],
       [ // part 3
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Cameron Gordon",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-05T01:00:00Z",
           duration: 1.0,
         },
@@ -817,10 +837,10 @@ function get_all_talks(){
       ],
       [ // part 2
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Zoltan Szabo",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-05T18:00:00Z",
           duration: 1.0,
         },
@@ -879,10 +899,10 @@ function get_all_talks(){
       ],
       [ // part 3
         {// plenary talk
-          speaker: "Speaker Name",
-          university: "University",
-          title: "Plenary talk",
-          description: "This time slot is free",
+          speaker: "Nicolai Reshetikhin",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
           start: "2025-02-06T01:00:00Z",
           duration: 1.0,
         },
