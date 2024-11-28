@@ -649,7 +649,7 @@ function get_all_talks(){
       ],
       [ // part 2
         {// plenary talk
-          speaker: "Lisa Picirillo",
+          speaker: "Lisa Piccirillo",
           university: "",
           title: "Title: TBA",
           description: "Abstract: TBA",
