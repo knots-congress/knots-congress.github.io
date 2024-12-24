@@ -718,32 +718,14 @@ function get_all_talks(){
           start: "2025-02-05T01:00:00Z",
           duration: 1.0,
         },
-        [
-          {
-            speaker: "Speaker Name",
-            university: "University",
-            title: "Talk title",
-            description: "This time slot is free",
-            start: "2025-02-05T02:00:00Z",
-            duration: 1.0,
-          },
-          {
-            speaker: "Speaker Name",
-            university: "University",
-            title: "Talk title",
-            description: "This time slot is free",
-            start: "2025-02-05T02:00:00Z",
-            duration: 1.0,
-          },
-          {
-            speaker: "Speaker Name",
-            university: "University",
-            title: "Talk title",
-            description: "This time slot is free",
-            start: "2025-02-05T02:00:00Z",
-            duration: 1.0,
-          }
-        ],
+        {// plenary talk
+          speaker: "Peter Ozsvath",
+          university: "",
+          title: "Title: TBA",
+          description: "Abstract: TBA",
+          start: "2025-02-05T02:00:00Z",
+          duration: 1.0,
+        },
         [
           {
             speaker: "Speaker Name",
