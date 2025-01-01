@@ -75,8 +75,8 @@ function get_all_talks(){
         {// plenary talk
           speaker: "Sergei Gukov",
           university: "",
-          title: "Title: TBA",
-          description: "Abstract: TBA",
+          title: "Knot Theory and AI",
+          description: "It comes as no surprise that solving challenging research-level math problems drives progress in mathematics. What is more surprising, though, is that solving such long-standing open problems also contributes to an entirely different field: the development of the next generation AI systems. We live in an exciting time where mathematics and AI can greatly benefit each other, and the goal of the talk is to explain how and why, drawing on specific examples from topology and knot theory.",
           start: "2025-02-01T19:00:00Z",
           duration: 1.0,
         },
@@ -389,8 +389,8 @@ function get_all_talks(){
         {// plenary talk
           speaker: "Edward Witten",
           university: "",
-          title: "Title: TBA",
-          description: "Abstact: TBA",
+          title: "From the Jones Polynomial to Khovanov Homology Via Gauge Theory",
+          description: "The original gauge theory description of the Jones polynomial involved a three-dimensional gauge theory based on a Chern-Simons action function. However, a \"dual\" four-dimensional gauge theory description gives a more direct interpretation of the coefficients of the Jones polynomial (viewed as a Laurent polynomial in a variable $q$) and provides a bridge to Khovanov homology.",
           start: "2025-02-03T03:00:00Z",
           duration: 1.0,
         },
@@ -461,10 +461,19 @@ function get_all_talks(){
       ],
       [ // part 2
         {// plenary talk
+          speaker: "Sofia Lambropoulou",
+          university: "",
+          title: "Celebrating Lou Kauffman: Working with Lou",
+          description: "",
+          start: "2025-02-03T17:00:00Z",
+          duration: 1.0,
+          type: 'birthday'
+        },
+        {// plenary talk
           speaker: "Louis Kauffman",
           university: "",
-          title: "Title: TBA",
-          description: "Abstract: TBA",
+          title: "Multiple Virtual Knot Theory",
+          description: "This talk will discuss a version of virtual knot theory in which there can be any number of distinct types of virtual crossings, each type can detour over any other type and over the classical crossings. The original motivation for this construction was a two virtual construction of the speaker that generalizes the Penrose coloring evaluation of planar trivalent graphs to arbitrary trivalent graphs. The talk will begin with these motivations, dwell on colorings and how they are related to knot and link diagrams. Then the talk will discuss generalized bracket polyomials, arrow polynomials, generalized quandles and other invariants for multiple virtuals.",
           start: "2025-02-03T18:00:00Z",
           duration: 1.0,
         },
@@ -525,8 +534,8 @@ function get_all_talks(){
         {// plenary talk
           speaker: "Ciprian Manolescu",
           university: "",
-          title: "Title: TBA",
-          description: "Abstract: TBA",
+          title: "Generalizations of Rasmussen's invariant",
+          description: "Over the last 20 years, the Rasmussen invariant of knots in $S^3$ has had a number of interesting applications to questions about surfaces in $B^4$. In this talk I will survey some recent extensions of the invariant to knots in other three-manifolds: in connected sums of $S^1 \\times S^2$ (joint work with Marengon, Sarkar, and Willis), in $RP^3$ (joint work with Willis, and also separate work of Chen), and in a general setting (work by Morrison, Walker and Wedrich; and independently by Ren-Willis). I will describe how these invariants give bounds on the genus of smooth surfaces in $4$-manifolds, and can even detect exotic $4$-manifolds with boundary.",
           start: "2025-02-04T01:00:00Z",
           duration: 1.0,
         },
@@ -589,8 +598,8 @@ function get_all_talks(){
         {// plenary talk
           speaker: "Vladimir Turaev",
           university: "",
-          title: "Title: TBA",
-          description: "Abstract: TBA",
+          title: "Knots and links in 2-complexes",
+          description: "We introduce and study knots and links in 2-dimensional complexes. In particular, we define linking numbers for oriented two-component links in 2-complexes and a Kauffman-type bracket polynomial for links in 2-complexes. We also discuss relationships with knots and links in 3-manifolds.",
           start: "2025-02-04T12:00:00Z",
           duration: 1.0,
         },

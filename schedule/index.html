@@ -82,8 +82,9 @@
                           content += '</div>'
                         }
                         else {
-                          content += '<div class="event securities start-1 plenary">';
-                          content += createTaskFromJs(day+1, part+1, -1, -1, all_talks[day][part][section]);
+                          const opts = all_talks[day][part][section];
+                          content += `<div class="event ${(opts.hasOwnProperty('type') && opts['type'] == 'birthday') ? 'corp-fi' : 'securities'} start-1 plenary">`;
+                          content += createTaskFromJs(day+1, part+1, -1, -1, opts);
                           content += '</div>';
                         }
                     }
