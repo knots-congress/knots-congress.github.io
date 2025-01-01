@@ -101,6 +101,8 @@
             setupCollapsabled();
             enableNearestDay();
             setupTalkTimes();
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
     </script>
 </head>
