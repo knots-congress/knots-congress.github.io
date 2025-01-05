@@ -202,9 +202,9 @@ function get_all_talks(){
       [// part 1
         {// plenary talk
           speaker: "Victor Vassiliev",
-          university: "University",
-          title: "Title: TBA",
-          description: "Abstract: TBA",
+          university: "Weizmann Institiute of Science",
+          title: "Varieties of chord diagrams and finite dimensional knot spaces",
+          description: "Every finite collection of <i>chords</i>, i.e. pairs of points $a_i \\neq b_i$ in ${\\mathbb R}^1$ or $S^1$, defines a subalgebra in $C^\\infty({\\mathbb R}^1, {\\mathbb R}) $ or $C^\\infty(S^1, {\\mathbb R})$ consisting of functions satisfying all conditions of the form $f(a_i) = f(b_i)$, $i=1, \\dots, d$. The space of all such subalgebras of a given codimension $d$ is a semialgebraic variety.<br/><br/>We will consider these varieties, their natural compactifications, and the canonical $d$-dimensional normal bundles on them. Lower bounds on the dimensions of non-trivial characteristic classes of these bundles will be given, and their implications in knot theory and interpolation theory will be discussed.",
           start: "2025-02-02T12:00:00Z",
           duration: 1.0,
         },
@@ -647,10 +647,10 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Speaker Name",
-            university: "University",
-            title: "Talk title",
-            description: "This time slot is free",
+            speaker: "Colin Adams",
+            university: "",
+            title: "Hyperbolicity and Volumes of Charm Bracelets",
+            description: "We consider a specific subset of staked links called charm bracelets and discuss a variety of results about when they are hyperbolic and what we can say about their volumes.",
             start: "2025-02-04T14:00:00Z",
             duration: 1.0,
           }
