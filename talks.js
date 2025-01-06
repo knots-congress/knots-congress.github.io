@@ -67,8 +67,8 @@ function get_all_talks(){
         {// plenary talk
           speaker: "Jacob Rasmussen",
           university: "",
-          title: "Title: TBA",
-          description: "Abstract: TBA",
+          title: "Satellite operators, curves, and the Fukaya category",
+          description: "The Alexander polynomial of a satellite knot is related to the Alexander polynomials of the pattern and companion by a simple and well-known formula. The analogous problem for the knot Floer homology has been studied for 20 years, starting with the work of Eftekhary and Hedden. A modern perspective on the problem is that the Floer homology of the pattern induces a functor from the Fukaya category of the punctured torus to itself. I'll discuss this functor and how we should think about it.",
           start: "2025-02-01T18:00:00Z",
           duration: 1.0,
         },
