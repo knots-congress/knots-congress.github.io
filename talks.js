@@ -264,9 +264,9 @@ function get_all_talks(){
       [ // part 2
         {// plenary talk
           speaker: "Dror Bar-Natan",
-          university: "",
-          title: "Title: TBA",
-          description: "Abstract: TBA",
+          university: "University of Toronto",
+          title: "The Strongest Genuinely Computable Knot Invariant Since 2024",
+          description: "\"Genuinely computable\" means we have computed it for random knots with over 300 crossings. \"Strongest\" means it separates prime knots with up to 15 crossings better than the less-computable HOMFLY-PT and Khovanov homology taken together. And hey, it's also meaningful and fun. <br/><br/>Continues Rozansky, Garoufalidis, Kricker, and Ohtsuki, joint with Van der Veen.<br/><br/>More information: <a href='http://drorbn.net/ktc25'>http://drorbn.net/ktc25</a>",
           start: "2025-02-02T18:00:00Z",
           duration: 1.0,
         },
