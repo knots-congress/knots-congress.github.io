@@ -401,8 +401,8 @@ function get_all_talks(){
         {// plenary talk
           speaker: "Vassily Manturov",
           university: "Moscow Institute of Physics and Technology",
-          title: "Title: TBA",
-          description: "Abstract: TBA",
+          title: "The photography method: The state of the art and open problems.",
+          description: "In 2023, the speaker formulated the photography method which allows one to solve various equations and construct invariants of various topological object. We start from some object (say, pentagon) and its state (say, triangulation) with some data (for example, edge lengths of  triangles) together with a transformation rule (say, a triangulation flip). After that, by using some geometrical consideration, one can \"automatically\" prove that such transformation lead to a solution of some equation (for example, the Ptolemy transormation givves a solution to the pentagon equation) which leads to invariants of various objects (for example, braids). After that, one can \"freely\" (without any calculations) get a formula coming from some geometrical data (say, lengths in the hyperbolic space). Having such a formula, one automatically gets its algebraic proof which allows one to pass from geometric objects (lengths, angles) to variables. This method is very vaste. In particular, Dijkgraaf-Witten invariants can be interpreted in terms of the photography method. We mention just some relations of further research: invariants of knots, braids, manifolds of arbitrary dimensions, solutions to the pentagon, Yang-Baxter and other equations, relations to cluster algebras, tropical geometry and other parts of mathematics.",
           start: "2025-02-03T12:00:00Z",
           duration: 1.0,
         },
@@ -660,8 +660,8 @@ function get_all_talks(){
         {// plenary talk
           speaker: "Lisa Piccirillo",
           university: "",
-          title: "Title: TBA",
-          description: "Abstract: TBA",
+          title: "New constructions and invariants of closed smooth $4$-manifolds",
+          description: "Dimension four is the lowest dimension where smooth and topological manifolds can differ; any difference between these categories is known as exotica. In particular, a smooth $4$-manifold is <i>exotic</i> if there is another smooth $4$-manifold which is homeomorphic but not diffeomorphic to it. There is a wealth of literature, mostly written between 1983 and 2008, on producing exotic manifolds, but the techniques pioneered in this era can be hard to use in practice. I will discuss joint work with Adam Levine and Tye Lidman in which we give some new techniques for producing exotic $4$-manifolds.",
           start: "2025-02-04T18:00:00Z",
           duration: 1.0,
         },
