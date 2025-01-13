@@ -434,10 +434,10 @@ function get_all_talks(){
         ],
         [// section 2
           {
-            speaker: "Speaker Name",
-            university: "University",
-            title: "Talk title",
-            description: "This time slot is free",
+            speaker: "Maria Rita Casali",
+            university: "",
+            title: "Kirby diagrams, trisections and gems of $PL$ $4$-manifolds",
+            description: "The talk reviews the main achievements regarding the interactions between gem theory (which makes use of edge-colored graphs to represent $PL$-manifolds of arbitrary dimension) and both the classical representation of $PL$ $4$-manifolds via Kirby diagrams and the more recent one via trisections.<br/><br/> In particular, algorithmic procedures are presented to pass from one representation to the other, allowing to yield estimations of the involved invariants, as well as to produce examples of triangulations of exotic $4$-manifolds. <br/><br/><i>[Joint work with Paola Cristofori.]</i>",
             start: "2025-02-03T14:00:00Z",
             duration: 1.0,
           },
