@@ -202,7 +202,9 @@ div.plenary {
 .short-container {
   /*display: block;*/
   /*box-sizing: border-box;*/
-  display: flex;
+  /*display: flex;*/
+  display: grid;
+  grid-template-columns: 33.33% 33.33% auto;
 }
 
 .short {
