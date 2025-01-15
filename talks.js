@@ -583,10 +583,10 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Vigara Benito, Ruben",
+            speaker: "Rubén Vigara",
             university: "",
-            title: "Talk title",
-            description: "",
+            title: "Filling Dehn surfaces in $3$-manifolds",
+            description: "Dehn surfaces are immersed surfaces in $3$-manifolds with only double curve and triple point singularities. A Dehn surface <i>fills</i> the $3$-manifold $M$ where it lies if it defines a cell decomposition of $M$ in a natural way. Filling Dehn <i>spheres</i>, and their Johansson diagrams, where proposed by Montesinos in 2000 as a suitable way  for representing all closed, orientable, $3$-manifolds. Since then, some advances have been made in the subject, relating filling Dehn spheres (and surfaces) with areas as  $3$-manifold complexity or $2-$ and $1-$knots, for example. We'll present the subject and these advances, together with future research lines and some open questions. This is a joint work with Álvaro Lozano.",
             start: "2025-02-04T14:00:00Z",
             duration: 1.0,
           },
