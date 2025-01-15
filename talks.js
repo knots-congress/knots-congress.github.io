@@ -674,8 +674,8 @@ function get_all_talks(){
         {// plenary talk
           speaker: "Peter Ozsvath",
           university: "",
-          title: "Title: TBA",
-          description: "Abstract: TBA",
+          title: "Bordered Floer homology",
+          description: "Heegaard Floer homology is an invariant for closed three-manifolds, introduced in collaboration with Zoltan Szabo. Formally, it is a module over the polynomial algebra in a formal variable $U$.  Bordered Floer homology is an invariant for low-dimensional manifolds, introduced in collaboration with Robert Lipshitz and Dylan Thurston. The bordered theory associates an algebra to a parameterized surface. To a three-manifold with boundary, it associates a module over the algebra of its boundary. To a closed three-manifold equipped with a separating surface, it expresses the Heegaard Floer homology as a tensor product of the modules associated to the two pieces. In fact, the original version of bordered Floer homology expresses the $U=0$ specialization of Heegaard Floer homology. I will outline work in progress with Robert Lipshitz and Dylan Thurston, addressing the algebraic and analytic challenges for generalizing the construction to the unspecialized setting.",
           start: "2025-02-05T02:00:00Z",
           duration: 1.0,
         },

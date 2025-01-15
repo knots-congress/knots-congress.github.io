@@ -42,7 +42,8 @@
         }
 
         function createTaskFromJs(day, part, sec, talk, obj){
-            const id = `day_${day}_part_${part}_${sec < 1 ? 'plenary' : 'sec_' + sec}` + (sec < 1 ? '' : `_talk_${talk}`);
+            const speaker_id = obj.speaker.toLowerCase().replace(/[^a-z]/g,'');
+            const id = `day_${day}_part_${part}_${sec < 1 ? 'plenary' : 'sec_' + sec}` + (sec < 1 ? '' : `_talk_${talk}`) + `_${speaker_id}`;
             return createTalk(id, obj.speaker, obj.university, obj.title, obj.description, obj.start, obj.duration);
         }
 
