@@ -723,7 +723,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "",
-            start: "2025-02-05T19:00:00Z",
+            start: "2025-02-05T13:00:00Z",
             duration: 1.0,
           },
           {
@@ -731,7 +731,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "",
-            start: "2025-02-05T19:00:00Z",
+            start: "2025-02-05T13:00:00Z",
             duration: 1.0,
           },
           {
@@ -739,7 +739,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "",
-            start: "2025-02-05T19:00:00Z",
+            start: "2025-02-05T13:00:00Z",
             duration: 1.0,
           }
         ],
@@ -749,7 +749,7 @@ function get_all_talks(){
             university: "",
             title: "The HOMFLY-PT polynomials and the Conway and Kinoshita-Terasaka Knots",
             description: "Following a brief review of what on knows about these knots, a description of Some ideas about how one might employ knot polynomials to extract finer aspects of the conformations.",
-            start: "2025-02-05T20:00:00Z",
+            start: "2025-02-05T14:00:00Z",
             duration: 1.0,
           },
           {
@@ -757,7 +757,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "",
-            start: "2025-02-05T20:00:00Z",
+            start: "2025-02-05T14:00:00Z",
             duration: 1.0,
           },
           {
@@ -765,7 +765,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "",
-            start: "2025-02-05T20:00:00Z",
+            start: "2025-02-05T14:00:00Z",
             duration: 1.0,
           }
         ]
@@ -785,7 +785,7 @@ function get_all_talks(){
             university: "",
             title: "One Dimensional Families of Riemann Surfaces with Automorphisms",
             description: "The moduli space $\\mathcal{M}_{g}$ of surfaces of genus $g\\geq 2$ is the space of conformal equivalence classes of closed Riemann surfaces of genus $g$. This space is a complex, quasi-projective variety of dimension $3g-3$, and geometrically an orbifold under the action of the modular group. The set of singular points, the <i>branch locus</i>, may be stratified into a finite, disjoint union of smooth, irreducible, quasi-projective subvarieties called <i>equisymmetric strata</i>. Each stratum corresponds to a collection of surfaces of the same <i>symmetry type</i>, i.e. the conjugacy class of a finite group in the modular group.<br/><br/>The (complex) 1D strata are Riemann surfaces with punctures. We study these strata as punctured Riemann surfaces, in terms of the action of the automorphism group of the surfaces in the stratum. In this way the strata can be constructed, a la Hurwitz, as (branched) coverings of the Riemann sphere with four punctures or a torus with one puncture. We see that such strata are in fact Belyi curves. It will be interesting to see which ones are given by regular dessins d'enfants.",
-            start: "2025-02-06T02:00:00Z",
+            start: "2025-02-05T19:00:00Z",
             duration: 1.0,
           },
           {
@@ -793,7 +793,7 @@ function get_all_talks(){
             university: "",
             title: "Homology of Yang-Baxter operators: from Lou Kauffman \"Braids\" paper to  HOMFLYPT Yang-Baxter homology.",
             description: "In the Spring of 1984 I traveled to Zaragoza to visit Josè Montesinos. I was, then, working  on incompressible surfaces (with Maite Lozano) and I just discovered  the (conjectural) smallest volume hyperbolic 3-manifold. I talked about these topics in Zaragoza. However,  Josè also showed me notes by Lou Kauffman, who visited Zaragoza before me. The notes were the base of the future book \"On Knots\".<br/><br/>What caught my attention was reference to the work by physicists Ball and Metha on an inductive proof of the existence of the Alexander polynomial. Lou incorporated in the notes an outline of the proof. Few months later we were able to prove (with Paweł Traczyk in November-December 1984) the existence of the generalized Jones (HOMFLYPT) link polynomial invariant. Almost 30 years later (in 2012) I was able to define/construct the homology of a general Yang-Baxter operator (in friendly competition with Victoria Lebed). I am now computing with my students and grand-students homology of the HOMFLYPT Yang-Baxter operator. In my talk I describe my winding path from 1984 till 2025, from Lou Kauffman hint to Yang-Baxter homology.",
-            start: "2025-02-06T02:00:00Z",
+            start: "2025-02-05T17:00:00Z",
             duration: 1.0,
           },
           {
@@ -801,7 +801,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "",
-            start: "2025-02-06T02:00:00Z",
+            start: "2025-02-05T19:00:00Z",
             duration: 1.0,
           }
         ],
@@ -811,7 +811,7 @@ function get_all_talks(){
             university: "University of Southern California and Michigan State University",
             title: "Invisible $\\mathrm{SL}_n$-skeins",
             description: "For a Lie group $G$, the $G$-skein module of a $3$-dimensional manifold $M$ is a fundamental object in Witten’s interpretation of quantum knot invariants in the framework of a topological quantum field theory. When $G=\\mathrm{SL}_2$, the $\\mathrm{SL}_2$-module is better known as the Kauffman bracket skein module, and is closely related to the Jones polynomial. When the quantum parameter $q$ is a root of unity, the $\\mathrm{SL}_n$-skein module contains elements with a surprising “invisibility” property, in the sense that they can be traversed by any other skein without changing the resulting total skein. I will give a brief description of these invisible elements, based on the classical theory of symmetric polynomials in $n$ variables.",
-            start: "2025-02-06T03:00:00Z",
+            start: "2025-02-06T20:00:00Z",
             duration: 1.0,
           },
           {
@@ -819,7 +819,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "",
-            start: "2025-02-06T03:00:00Z",
+            start: "2025-02-06T20:00:00Z",
             duration: 1.0,
           },
           {
@@ -827,7 +827,7 @@ function get_all_talks(){
             university: "",
             title: "Rectangular diagrams of links, surfaces, and foliations",
             description: "The formalism of rectangular diagrams provides a convenient framework for representing links and surfaces in the three-sphere in a consistent manner. They appear to have a strong connection with contact topology, as well as nice combinatorial properties, which make them useful for solving algorithmic and classification problems of knot theory. In particular, they allow to construct a particularly simple algorithm for recognizing the unknot and to solve the problem of algorithmic classification of Legendrian and transverse links. One can also use rectangular diagrams to obtain explicit presentations of finite depth taut foliations in link complements.",
-            start: "2025-02-06T03:00:00Z",
+            start: "2025-02-06T20:00:00Z",
             duration: 1.0,
           }
         ]
@@ -847,7 +847,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "Free time slot",
-            start: "2025-02-05T13:00:00Z",
+            start: "2025-02-06T02:00:00Z",
             duration: 1.0,
           },
           {
@@ -855,7 +855,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "Free time slot",
-            start: "2025-02-05T13:00:00Z",
+            start: "2025-02-06T02:00:00Z",
             duration: 1.0,
           },
           {
@@ -863,7 +863,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "Free time slot",
-            start: "2025-02-05T13:00:00Z",
+            start: "2025-02-06T02:00:00Z",
             duration: 1.0,
           }
         ],
@@ -873,7 +873,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "Free time slot",
-            start: "2025-02-05T14:00:00Z",
+            start: "2025-02-06T03:00:00Z",
             duration: 1.0,
           },
           {
@@ -881,7 +881,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "Free time slot",
-            start: "2025-02-05T14:00:00Z",
+            start: "2025-02-06T03:00:00Z",
             duration: 1.0,
           },
           {
@@ -889,7 +889,7 @@ function get_all_talks(){
             university: "",
             title: "Talk title",
             description: "Free time slot",
-            start: "2025-02-05T14:00:00Z",
+            start: "2025-02-06T03:00:00Z",
             duration: 1.0,
           }
         ]
