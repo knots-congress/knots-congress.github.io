@@ -108,14 +108,32 @@ function get_all_talks(){
         ]
       ],
       [ // part 3
-        {// plenary talk
-          speaker: "",
-          university: "",
-          title: "Plenary talk",
-          description: "",
-          start: "2025-02-02T01:00:00Z",
-          duration: 1.0,
-        },
+        [
+          {
+            speaker: "Speaker Name",
+            university: "",
+            title: "Talk title",
+            description: "Free time slot",
+            start: "2025-02-02T01:00:00Z",
+            duration: 1.0,
+          },
+          {
+            speaker: "Speaker Name",
+            university: "",
+            title: "Talk title",
+            description: "Free time slot",
+            start: "2025-02-02T01:00:00Z",
+            duration: 1.0,
+          },
+          {
+            speaker: "Speaker Name",
+            university: "",
+            title: "Talk title",
+            description: "Free time slot",
+            start: "2025-02-02T01:00:00Z",
+            duration: 1.0,
+          }
+        ],
         [
           {
             speaker: "Ren, Qiuyu",
@@ -709,14 +727,32 @@ function get_all_talks(){
     ],
     [// day 5
       [// part 1
-        {// plenary talk
-          speaker: "",
-          university: "",
-          title: "Plenary talk",
-          description: "",
-          start: "2025-02-05T12:00:00Z",
-          duration: 1.0,
-        },
+        [
+          {
+            speaker: "Speaker Name",
+            university: "",
+            title: "Talk title",
+            description: "Free time slot",
+            start: "2025-02-05T12:00:00Z",
+            duration: 1.0,
+          },
+          {
+            speaker: "Speaker Name",
+            university: "",
+            title: "Talk title",
+            description: "Free time slot",
+            start: "2025-02-05T12:00:00Z",
+            duration: 1.0,
+          },
+          {
+            speaker: "Speaker Name",
+            university: "",
+            title: "Talk title",
+            description: "Free time slot",
+            start: "2025-02-05T12:00:00Z",
+            duration: 1.0,
+          }
+        ],
         [
           {
             speaker: "Jin, Gyo Taek",
