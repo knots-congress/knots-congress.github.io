@@ -20,7 +20,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Cheng, Zhiyun",
+            speaker: "Zhiyun Cheng",
             university: "Beijing Normal University",
             title: "Partial-dual genus polynomial and its categorification",
             description: "The partial-dual genus polynomial of a ribbon graph is the generating function that enumerates all partial duals of the ribbon graph.<br/><br/>In this talk, I will give an introduction to this polynomial and discuss the categorification of it. This is a joint work with Ziyi Lei.",
@@ -28,9 +28,9 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Hirasawa, Mikami",
+            speaker: "Mikami Hirasawa",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-01T13:00:00Z",
             duration: 1.0,
@@ -46,7 +46,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Nelson, Sam",
+            speaker: "Sam Nelson",
             university: "",
             title: "Quandle Cohomology Quiver Representations",
             description: "Quandles are algebraic structures encoding the motion of knots through space. Quandle cocycle quivers categorify the quandle cocycle invariant. In this talk we will define a quiver representation associated to quandle cocycle quivers and use it to obtain new polynomial invariants of knots.",
@@ -54,7 +54,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Cattabriga, Alessia",
+            speaker: "Alessia Cattabriga",
             university: "",
             title: "Plat-like representation of links in $3$-manifolds",
             description: "In this talk, I will present some results on link representations in $3$-manifolds that generalize the well-known plat closure representation in the 3-sphere. More specifically, one representation involves the Heegaard decomposition of manifolds and surface braids, and it applies to links in all closed, connected, orientable $3$-manifolds (joint work with Paolo Bellingeri and Boštjan Grabrovšek). The other representation also utilizes surface braids but is applicable to links in $3$-manifolds containing a non-orientable embedded surface whose complement is a handlebody<br/><br/>Joint work with Paolo Cavicchioli, Visakh Narayanan, and Misha Rama.",
@@ -82,7 +82,7 @@ function get_all_talks(){
         },
         [
           {
-            speaker: "Libgober, Anatoly",
+            speaker: "Anatoly Libgober",
             university: "",
             title: "Geometric applications of Alexander invariants of the complements to algebraic curves",
             description: "One of the main results is a description of complex plane algebraic curves with the fundamental groups of the complements having free quotients of a large rank. The key technical tool is Alexander invariants which will be discussed in the beginning of the talk.",
@@ -90,15 +90,15 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Manchon, Dominique",
+            speaker: "Dominique Manchon",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-01T20:00:00Z",
             duration: 1.0,
           },
           {
-            speaker: "Silver, Daniel",
+            speaker: "Daniel Silver",
             university: "",
             title: "The Penrose Polynomial",
             description: "The Four Color Theorem states that no more than four colors are needed to color the regions of a map so that contingent regions receive different colors. The theorem was proved in 1976 by Kenneth Appel and Wolfgang Haken with the aid of a computer. A non-electronic proof remains elusive. In this joint work with Susan Williams and Louis Kauffman, we give a new description of a polynomial implicit in a 1969 paper by Roger Penrose. A complete understanding of the polynomial would result in a new proof of the Four Color Theorem.",
@@ -136,7 +136,7 @@ function get_all_talks(){
         ],
         [
           {
-            speaker: "Ren, Qiuyu",
+            speaker: "Qiuyu Ren",
             university: "",
             title: "Lasagna s-invariant detect exotic $4$-manifolds",
             description: "We introduce a generalization of Rasmussen's $s$-invariant, called the lasagna $s$-invariant, which assigns either an integer or $-\\infty$ to each second homology class of a smooth $4$-manifold. The construction is based on the construction of skein lasagna modules by Morrison-Walker-Wedrich. We present a few properties enjoyed by lasagna $s$-invariants, and we show that they detect the exotic pair of knot traces $X_{-1}(-5_2)$ and $X_{-1}(P(3,-3,-8))$, an example first discovered by Akbulut. This gives the first gauge/Floer-theory-free proof of the existence of compact orientable exotic $4$-manifolds. This is joint work with Michael Willis.",
@@ -144,7 +144,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Stoimenow, Alexander",
+            speaker: "Alexander Stoimenow",
             university: "",
             title: "Strong quasipositivity, Thurston-Bennequin invariants, and arc index",
             description: "This talk gives a survey of recent work with several collaborators (mostly G.T.Jin and H.J.Lee, but also V.Singh) on establishing connections between the concepts in the title. Specifically, we relate to Rudolph's result about strong quasipositivity of annuli, the Livingston-Naik inequalities for jump numbers of slice-torus invariants, the Bennequin sharpness problem for Whitehead doubles, the Ohyama braid index inequality, and a recent result of Diao-Morton about the braid indices of reverse parallels of alternating knots.<br/><br/>We introduce an alternative approach towards estimating Thurston-Bennequin invariants and arc index of knots from link polynomials, with special discussion of torus knots.",
@@ -164,13 +164,13 @@ function get_all_talks(){
           {
             speaker: "Seongjeong Kim",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-02T03:00:00Z",
             duration: 1.0,
           },
           {
-            speaker: "Purcell Jessica",
+            speaker: "Jessica Purcell",
             university: "",
             title: "Triangulations of the 3-sphere with knotted edge",
             description: "We prove that for any knot $K$, there exists a one-vertex triangulation of the 3-sphere containing an edge forming $K$. This result is related to open questions on triangulations of 3-manifolds. It has been known since work of Moise in the 1950s that every 3-manifold admits a triangulation, or decomposition into tetrahedra. However, the following are still unknown:<br/>(1) Given a hyperbolic 3-manifold, does it admit a geometric triangulation, i.e. a decomposition into ideal tetrahedra that are positively oriented and convex with respect to the given hyperbolic metric?<br/>(2) When is a triangulation minimal, i.e. uses the least number of tetrahedra required by its topology?<br/>In combinatorics and computational topology, there are additional questions along the lines of:<br/>(3) How bad can a triangulation be?<br/><br/>In this talk, I will discuss recent results on (3). While the statement of the result is purely topological, the proof uses hyperbolic geometry, and runs into questions (1) and (2).<br/><br/>This is joint with Ibarra, Mathews, and Spreer.",
@@ -180,7 +180,7 @@ function get_all_talks(){
           {
             speaker: "Shin Satoh",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-02T03:00:00Z",
             duration: 1.0,
@@ -200,15 +200,15 @@ function get_all_talks(){
         },
         [// section 1
           {
-            speaker: "Zupan, Alex",
+            speaker: "Alex Zupan",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-02T13:00:00Z",
             duration: 1.0,
           },
           {
-            speaker: "Krushkal, Slava",
+            speaker: "Slava Krushkal",
             university: "",
             title: "Thompson's group $F$, tangles, and link homology",
             description: "We extend a construction of V. Jones to associate $(n, n)$-tangles with elements of Thompson's group $F$ and prove that it is asymptotically faithful as $n \\to\\infty$. Using this construction we show that $F$ admits a lax group action on a category of Khovanov's chain complexes.<br/><br/>Joint work with Louisa Liles and Yangxiao Luo.",
@@ -216,7 +216,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Izquierdo, Milagros",
+            speaker: "Milagros Izquierdo",
             university: "",
             title: "One Dimensional Families of Riemann Surfaces with Automorphisms",
             description: "The moduli space $\\mathcal{M}_{g}$ of surfaces of genus $g\\geq 2$ is the space of conformal equivalence classes of closed Riemann surfaces of genus $g$. This space is a complex, quasi-projective variety of dimension $3g-3$, and geometrically an orbifold under the action of the modular group. The set of singular points, the <i>branch locus</i>, may be stratified into a finite, disjoint union of smooth, irreducible, quasi-projective subvarieties called <i>equisymmetric strata</i>. Each stratum corresponds to a collection of surfaces of the same <i>symmetry type</i>, i.e. the conjugacy class of a finite group in the modular group.<br/><br/>The (complex) 1D strata are Riemann surfaces with punctures. We study these strata as punctured Riemann surfaces, in terms of the action of the automorphism group of the surfaces in the stratum. In this way the strata can be constructed, a la Hurwitz, as (branched) coverings of the Riemann sphere with four punctures or a torus with one puncture. We see that such strata are in fact Belyi curves. It will be interesting to see which ones are given by regular dessins d'enfants.",
@@ -226,7 +226,7 @@ function get_all_talks(){
         ],
         [// section 2
           {
-            speaker: "Ricca, Renzo",
+            speaker: "Renzo Ricca",
             university: "U.  Milano-Bicocca",
             title: "A Topological Approach to Turbulence Cascade",
             description: "Fluid turbulence is a phenomenon characterised by the production of complex, large-scale tangles of vortex filaments that before final dissipation tend to decay to small-scale loops. A topological analysis of superfluid tangles shows that very complex knots and links are formed, and that upon mutual interaction and reconnection they gradually decompose to form small, unknotted, unlinked vortex rings [<a href='program#KKI16'>1</a>,<a href='program#CMBB19'>2</a>]. By using standard polynomials of knot theory derived from the fieldline helicity of vortex dynamics [<a href='program#RL23'>3</a>] we showed that our adapted polynomials can <i>quantify</i> the generic topological cascade observed in experiments [<a href='program#LRG24'>4</a>]. Here we present a topological approach to turbulence cascade based on the idea that the dynamical process could be viewed in terms of geodesic flows in an appropriate knot polynomial space (a discrete metric space), whose singletons represent knot types identified by their knot polynomial value [<a href='program#LRL20'>5</a>]. Optimal unlinking paths can thus be determined and put in relation with statistical measures of energy dissipation and information entropy. Work in this direction is in progress.<br/><br/>This is joint work with Xin Liu (Beijing University of Technology, P.R. China).<br/><br/><b>References</b><br/><br/><span id='KKI16'>[1] Kleckner, D., Kauffman, L.H.  &  Irvine, W.T.M. (2016) How superfluid vortex knots untie.</span> <i>Nature Physics</i> <b>12</b>, 650--655.<br/><span id='CMBB19'>[2] Cooper, R.G., Mesgarnezhad, M.,  Baggaley, A.W. & Barenghi, C.F. (2019)</span> Knot spectrum of turbulence. <i>Sci. Rep.</i> <b>9</b>, 10545.<br/><span id='RL23'>[3] Ricca, R.L. & Liu, X. (2023)</span> A new framework for the Jones polynomial of fluid knots. <i>J. Knot Theory & Its Ram.</i>, 2340024.<br/><span id='LRG24'>[4] Liu, X., Ricca, R.L. & Guan, H. (2024)</span> A topological approach to vortex knots and links. In <i>Knotted Fields</i> (ed. R.L. Ricca & X. Liu), pp. 1-36.  Lecture Notes in Mathematics <b>2344</b>, Springer-Nature, Switzerland.<br/><span id='LRL20'>[5] Liu, X., Ricca, R.L. & Li, X.-F. (2020)</span> Minimal unlinking pathways as geodesics in knot polynomial space. <i>Nature Comm. Physics</i> <b>3</b>, 136.",
@@ -242,9 +242,9 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Bryden, John",
+            speaker: "John Bryden",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-02T14:00:00Z",
             duration: 1.0,
@@ -262,7 +262,7 @@ function get_all_talks(){
         },
         [
           {
-            speaker: "Apanasov, Boris",
+            speaker: "Boris Apanasov",
             university: "University of Oklahoma, Norman/OK, USA",
             title: "Nontrivial $2$-knots as everywhere wild quasisymmetric embeddings $S^2\\hookrightarrow S^4$ with ergodic dynamics of uniform hyperbolic lattices",
             description: "We discuss applications of our recently introduced conformal interbreeding (generalizing Gromov-Piatetskii hyperbolic interbreeding) to nontrivial $2$-knots in $4$-sphere and geometric analysis. Created $2$-knots in $S^4$ have ergodic dynamics of uniform hyperbolic lattices and are obtained by everywhere wild quasisymmetric embeddings $S^2\\hookrightarrow S^4$ equivariant with respect to the action of uniform hyperbolic lattices. This is connected to theory of conformal deformations of hyperbolic structures, their Teichmüller spaces (varieties of discrete reprs of hyperbolic lattices) and nontrivial homology $4$-cobordisms. For related material (negatively curved locally symmetric rank one spaces, their Teichmüller spaces, faithful (or not) discrete reprs of uniform hyperbolic lattices, hyperbolic 4-cobordisms and several their appls to algebra, geometry, topology and geometric analysis) we refer to our new book \"Dynamics of Discrete Group Action\" published last Summer by De Gruyter in the series Advances in Analysis and Geometry, <b>10</b>.",
@@ -278,7 +278,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Morton, Hugh",
+            speaker: "Hugh Morton",
             university: "",
             title: "Framing and knot invariants",
             description: "Kauffman  focussed attention on the importance of treating framing separately when thinking of knot invariants. His construction of the bracket polynomial, and more strikingly of the Dubrovnik version of his 2-variable polynomial from the Brandt-Lickorish-Millett-Ho polynomial, made a key use of framing. At the same time he showed how framing works well with the Homfly polynomial, using a memorable set of skein relations.<br/><br/>Framing plays an essential role in constructing satellite knots and related invariants. It is also central in the behaviour of quantum group based invariants, and guides the best ways to compare diverse appearances of invariants.<br/><br/>I will recall Rudolph's early work relating Dubrovnik to the Homfly of a reverse parallel, pointing out the clean comparison when framing is kept in mind, and also the more general relation between coloured Dubrovnik and suitably coloured Homfly invariants.",
@@ -296,7 +296,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Díaz, Raquel",
+            speaker: "Raquel Díaz",
             university: "",
             title: "A torsion pattern in Khovanov homology, II",
             description: "We will show specific sums of enhanced states that produce torsion of order two in the Khovanov homology. This work is related to the Shumakovitch conjecture which states that all links except the trivial knot, the Hopf link and their disjoint unions and connected sums have torsion. Joint work with Pedro M.G. Manchón.",
@@ -324,25 +324,25 @@ function get_all_talks(){
         },
         [
           {
-            speaker: "Walker Kevin",
+            speaker: "Kevin Walker",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-03T02:00:00Z",
             duration: 1.0,
           },
           {
-            speaker: "Willis, Mike",
+            speaker: "Mike Willis",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-03T02:00:00Z",
             duration: 1.0,
           },
           {
-            speaker: "Ogasa, Eiji",
+            speaker: "Eiji Ogasa",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-03T02:00:00Z",
             duration: 1.0,
@@ -370,7 +370,7 @@ function get_all_talks(){
         },
         [// section 1
           {
-            speaker: "Baldridge, Scott",
+            speaker: "Scott Baldridge",
             university: "",
             title: "A new way to prove the Four Color Theorem using gauge theory",
             description: "In this talk, I show how ideas coming out of gauge theory can be used to prove configurations in the list of \"633 unavoidable configurations\" are reducible. In particular, I show how to prove the smallest nontrivial example, the Birkhoff diamond (four adjacent pentagons), is reducible using our filtered $3$- and $4$-color homology. In this context reducible means that the Birkhoff diamond cannot show up as a \"tangle\" in a minimal counterexample to the four color theorem. This is a new proof of a 111-year-old result that is a direct consequence of a special $(2+1)$-dimensional topological quantum field theory. If time, I will indicate how the ideas used in the proof might be used to reduce the four color theorem to a human computable calculation.<br/><br/>This is joint work with Ben McCarty.",
@@ -378,7 +378,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Lozano, María Teresa",
+            speaker: "María Teresa Lozano",
             university: "",
             title: "On integral groups and 3-dimensional orbifolds",
             description: "In this talk I will remind the concept of integral group for a group of matrices in a number field $K$. This is a necessary condition to be an arithmetic group. Some examples of 3-dimensional orbifolds with knots or links as singular set whose fundamental group is an integral group will be presented. I will also state some open questions.<br/><br/>Partially based on: M.T. Lozano, J.M.Montesinos-Amilibia: “Integral geometric orbifolds”.  J. Knot Theory Ramifications 30 (2021), no. 12, Paper No. 2141010.",
@@ -386,7 +386,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Repovš, Dušan D.",
+            speaker: "Dušan D. Repovš",
             university: "Faculty of Mathematics and Physics, University of Ljubljana, Jadranska 19, Ljubljana, Slovenia",
             title: "Applications of Kauffman’s polynomial: Nonstandard embeddings of the Cantor set into $\\mathbb{R}^{3}$",
             description: "In the last 20 years there has been a revival of interest in constructions of wild Cantor sets in $\\mathbb{R}^{3}$ which were first discovered a century ago. These new wild examples have some additional properties, for example Lipschitz homogeneity in $\\mathbb{R}^{3},$ rigidity in $\\mathbb{R}^{3},$ simple connectivity of the complement in $\\mathbb{R}^{3},$ etc. We shall consider such a construction where the Kauffmann bracket polynomial is used to establish its properties. We shall also state some open problems and conjectures.",
@@ -396,7 +396,7 @@ function get_all_talks(){
         ],
         [// section 2
           {
-            speaker: "Casali, Maria Rita",
+            speaker: "Maria Rita Casali",
             university: "",
             title: "Kirby diagrams, trisections and gems of $PL$ $4$-manifolds",
             description: "The talk reviews the main achievements regarding the interactions between gem theory (which makes use of edge-colored graphs to represent $PL$-manifolds of arbitrary dimension) and both the classical representation of $PL$ $4$-manifolds via Kirby diagrams and the more recent one via trisections.<br/><br/> In particular, algorithmic procedures are presented to pass from one representation to the other, allowing to yield estimations of the involved invariants, as well as to produce examples of triangulations of exotic $4$-manifolds. <br/><br/>Joint work with Paola Cristofori.",
@@ -404,9 +404,9 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Carter, Scott",
+            speaker: "Scott Carter",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-03T14:00:00Z",
             duration: 1.0,
@@ -414,7 +414,7 @@ function get_all_talks(){
           {
             speaker: "Bartosz Gren",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-03T14:00:00Z",
             duration: 1.0,
@@ -441,7 +441,7 @@ function get_all_talks(){
         },
         [
           {
-            speaker: "Bellingeri, Paolo",
+            speaker: "Paolo Bellingeri",
             university: "University of Caen Normandy, France",
             title: "Congruence subgroups of braid groups and crystallographic quotients",
             description: "This talk delves into the relationship between two families of groups, respectively subgroups and quotients of classical braid groups: congruence subgroups of braid groups and crystallographic braid groups, respectively introduced Arnol'd and Tits. We recall and introduce some elements belonging to congruence braid groups and we establish some (iso)-morphisms between crystallographic braid groups and corresponding quotients of congruence braid groups. Finally, we study the lower central series of congruence braid groups related to the braid group B3, showing in particular that corresponding quotients are all almost crystallographic.<br/><br/>Joint work with C. Damiani, O. Ocampo, and C. Stylianakis.",
@@ -457,7 +457,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Sumners, De Witt",
+            speaker: "De Witt Sumners",
             university: "",
             title: "Helicity of Seifert Framed Defects",
             description: "The topology and helicity of anti-parallel defect reconnection will be discussed. Line defects are one-dimensional phase singularities (forming oriented knots and links) that arise in a variety of physical systems (fluid dynamics, magnetic fields, excitable media). In these systems, isophase surfaces (Seifert surfaces) have the phase defects as boundary, and these Seifert surfaces define a framing of the normal bundle of each link component. We define the individual helicity for each component of a link singularity, and prove that each individual helicity is zero if and only if there exists a Seifert framing for the link. We extend these results to multi-armed defects. We prove that under anti-parallel reconnection of framed defect strands that both twist and writhe helicity are conserved.<br/><br/><b>References<br/><br/></b>C. E. Laing, Renzo L. Ricca, D.W. Sumners, Conservation of writhe helicity under anti-parallel reconnection, <i>Nature Scientific Reports</i> 5 : 9224 DOI: 10.1038/srep09224 (2015).<br/>D.W. Sumners, I. Cruz-White, R. Ricca, Zero Helicity of Seifert Framed Defects, <i>J. Phys A, Math. Theor.</i> <b>54</b> (2021) 295203",
@@ -475,15 +475,15 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Saito, Masahito",
+            speaker: "Masahito Saito",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-03T20:00:00Z",
             duration: 1.0,
           },
           {
-            speaker: "Traczyk, Paweł",
+            speaker: "Paweł Traczyk",
             university: "University of Warsaw, Warsaw, Poland, <a href='mailto:traczyk@mimuw.edu.pl'>traczyk@mimuw.edu.pl</a>",
             title: "Burau braid representation for $n = 4$. A problem in linear algebra?",
             description: "We consider the problem of faithfulness of the famous Burau braid representation $\\rho$ for $n = 4.$<br/>It is known to be equivalent to the problem of whether certain two matrices $\\alpha$ and $\\beta$ (given below) generate a free group of rank two. $$ \\alpha = \\left[ \\begin{array}{ccc}0 & 0 & -t^{-1} \\\\ 0 & -t & -t^{-1} + t\\\\  -1 & 0 & -t^{-1} + 1 \\end{array}\\right]  \\beta =\\left[ \\begin{array}{ccc}-t & t & 0 \\\\ 0 & 1 & 0 \\\\ 0 & t^{-1} & -t^{-1} \\end{array}\\right]$$It turns out that this can be reduced to the following seemingly simpler problem:<br/>Let us consider the following six matrices:$$\\rho(\\sigma_3\\sigma_2\\sigma_1) = ~~~\\left[\\begin{array}{rrrr} -t & t & 0\\\\ -t & 0 & t\\\\ -t & 0 & 0 \\end{array}\\right] = S,(and S^2,S^3)~~~and~~~\\rho(\\sigma_1\\sigma_2\\sigma_3) = \\left[\\begin{array}{rrlr} 0 & 0 & -t^3\\\\ 1 & 0 & -t^2\\\\ 0 & 1 & -t \\end{array} \\right] = B(and B^2, B^3).$$ The problem of faithfulness of the Burau representation is equivalent to the question wheather or not it is possible to obtain (for some positive integer $k$) the diagonal matrix $$\\left[\\begin{array}{ccc} t^{4k} &      0 & 0\\\\ 0      & t^{4k} & 0\\\\ 0      &      0 & t^{4k} \\\\ \\end{array} \\right]$$ as an alternating product of the above mentioned six matrices. Alternating means that $S,S^2,S^3$ and $B,B^2,B^3$ appear in an alternating manner.<br/><br/>In the talk we will discuss some experimental data and consider somr typical and some exceptional examples. It is actually true that the only chance is to have $4k$ in the matrix above equal to the sum of exponents of $B,B^2,B^3,S,S^2,S^3.$ We conjecture that in fact the considered product will always contain, in one of the entries, a term $t^m, m < 4k.$",
@@ -503,7 +503,7 @@ function get_all_talks(){
         },
         [
           {
-            speaker: "Owczarek, Robert",
+            speaker: "Robert Owczarek",
             university: "University of New Mexico",
             title: "Cartan philosophy on geometry, and TQFTs defined for theories of Sławianowski and Kijowski type",
             description: "We confront the philosophy of Cartan on different geometries used in \"physics\" (mostly general relativity) with the philosophy of Topological Quantum Field Theories used to construct topological invariants of manifolds and structures within them (e.g., knots and links in $3D$ manifolds). We show that applying Cartan philosophy to manifolds of general dimension, gives for Topological Quantum Field Theories of the \"non-metric\" type (so, of the type including Chern-Simons theories in $3D$) basically just two possibilities, which we call theories of Sławianowski type, and Kijowski type, named after their creators (more exactly, it will be slight variation from their original theories, but obviously equivalent). We will construct the proper Lagrangian of the theories, and, in the spirit of Chern-Simons theories, we will write down \"topological invariants\" as appropriate path integrals. We will shortly discuss the difficulty of further analysis of so obtained invariants.",
@@ -539,7 +539,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "Free time slot",
             start: "2025-02-04T03:00:00Z",
             duration: 1.0,
@@ -567,25 +567,25 @@ function get_all_talks(){
         },
         [// section 1
           {
-            speaker: "Abrosimov, Nikolai",
+            speaker: "Nikolai Abrosimov",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-04T13:00:00Z",
             duration: 1.0,
           },
           {
-            speaker: "Lawrence, Ruth",
+            speaker: "Ruth Lawrence",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-04T13:00:00Z",
             duration: 1.0,
           },
           {
-            speaker: "Tsvietkova, Anastasiia",
+            speaker: "Anastasiia Tsvietkova",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-04T13:00:00Z",
             duration: 1.0,
@@ -593,9 +593,9 @@ function get_all_talks(){
         ],
         [// section 2
           {
-            speaker: "Guaschi, John",
+            speaker: "John Guaschi",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-04T14:00:00Z",
             duration: 1.0,
@@ -637,15 +637,15 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Menasco, Will",
+            speaker: "Will Menasco",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-04T19:00:00Z",
             duration: 1.0,
           },
           {
-            speaker: "Nikonov, Igor",
+            speaker: "Igor Nikonov",
             university: "",
             title: "The crossing and the arc from the topological viewpoint",
             description: "Combinatorial approach to knot theory treats knots as diagrams modulo Reidemeister moves. Many constructions of knot invariants (e.g., index polynomials, quandle colorings etc.) use elements of diagrams such as arcs and crossings by assigning invariant labels to them. The universal invariant labels, which carry the most information, can be thought of as equivalence classes of arcs and crossings modulo the relation, which identifies corresponding elements of diagrams connected by a Reidemeister move. One can call these equivalence classes the arcs and crossings of the knot. In the talk we give a topological description of sets of these classes.",
@@ -671,7 +671,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Blanchet, Christian",
+            speaker: "Christian Blanchet",
             university: "Université Paris Cité and Sorbonne Université, CNRS, IMJ-PRG, F-75006 Paris, France",
             title: "Homology of configurations in ribbon graphs",
             description: "We review Heisenberg homology of configurations in once bounded surfaces and extend the construction to the regular thickening of a finite graph with ribbon structure.",
@@ -702,7 +702,7 @@ function get_all_talks(){
             speaker: "Rama Mishra",
             university: "",
             title: "TBA",
-            description: "Free time slot",
+            description: "TBA",
             start: "2025-02-05T03:00:00Z",
             duration: 1.0,
           },
@@ -718,7 +718,7 @@ function get_all_talks(){
             speaker: "Eleni Panagiotou",
             university: "",
             title: "TBA",
-            description: "",
+            description: "TBA",
             start: "2025-02-05T03:00:00Z",
             duration: 1.0,
           }
@@ -755,9 +755,9 @@ function get_all_talks(){
         ],
         [
           {
-            speaker: "Jin, Gyo Taek",
+            speaker: "Gyo Taek Jin",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-05T13:00:00Z",
             duration: 1.0,
@@ -771,9 +771,9 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Cavicchiolli, Paolo",
+            speaker: "Paolo Cavicchiolli",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-05T13:00:00Z",
             duration: 1.0,
@@ -781,7 +781,7 @@ function get_all_talks(){
         ],
         [
           {
-            speaker: "Millett, Kenneth",
+            speaker: "Kenneth Millett",
             university: "",
             title: "The HOMFLY-PT polynomials and the Conway and Kinoshita-Terasaka Knots",
             description: "Following a brief review of what on knows about these knots, a description of Some ideas about how one might employ knot polynomials to extract finer aspects of the conformations.",
@@ -789,9 +789,9 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Klaus, Stefan",
+            speaker: "Stefan Klaus",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-05T14:00:00Z",
             duration: 1.0,
@@ -799,7 +799,7 @@ function get_all_talks(){
           {
             speaker: "Valeriy Bardakov",
             university: "",
-            title: "Talk title",
+            title: "TBA",
             description: "",
             start: "2025-02-05T14:00:00Z",
             duration: 1.0,
@@ -817,7 +817,7 @@ function get_all_talks(){
         },
         [
           {
-            speaker: "Henrich, Allison",
+            speaker: "Allison Henrich",
             university: "",
             title: "One Dimensional Families of Riemann Surfaces with Automorphisms",
             description: "The moduli space $\\mathcal{M}_{g}$ of surfaces of genus $g\\geq 2$ is the space of conformal equivalence classes of closed Riemann surfaces of genus $g$. This space is a complex, quasi-projective variety of dimension $3g-3$, and geometrically an orbifold under the action of the modular group. The set of singular points, the <i>branch locus</i>, may be stratified into a finite, disjoint union of smooth, irreducible, quasi-projective subvarieties called <i>equisymmetric strata</i>. Each stratum corresponds to a collection of surfaces of the same <i>symmetry type</i>, i.e. the conjugacy class of a finite group in the modular group.<br/><br/>The (complex) 1D strata are Riemann surfaces with punctures. We study these strata as punctured Riemann surfaces, in terms of the action of the automorphism group of the surfaces in the stratum. In this way the strata can be constructed, a la Hurwitz, as (branched) coverings of the Riemann sphere with four punctures or a torus with one puncture. We see that such strata are in fact Belyi curves. It will be interesting to see which ones are given by regular dessins d'enfants.",
@@ -833,17 +833,17 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Matsumoto, Elisabetta",
+            speaker: "Elisabetta Matsumoto",
             university: "",
-            title: "Talk title",
-            description: "",
+            title: "TBA",
+            description: "TBA",
             start: "2025-02-05T19:00:00Z",
             duration: 1.0,
           }
         ],
         [
           {
-            speaker: "Bonahon, Francis",
+            speaker: "Francis Bonahon",
             university: "University of Southern California and Michigan State University",
             title: "Invisible $\\mathrm{SL}_n$-skeins",
             description: "For a Lie group $G$, the $G$-skein module of a $3$-dimensional manifold $M$ is a fundamental object in Witten’s interpretation of quantum knot invariants in the framework of a topological quantum field theory. When $G=\\mathrm{SL}_2$, the $\\mathrm{SL}_2$-module is better known as the Kauffman bracket skein module, and is closely related to the Jones polynomial. When the quantum parameter $q$ is a root of unity, the $\\mathrm{SL}_n$-skein module contains elements with a surprising “invisibility” property, in the sense that they can be traversed by any other skein without changing the resulting total skein. I will give a brief description of these invisible elements, based on the classical theory of symmetric polynomials in $n$ variables.",
@@ -851,15 +851,15 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Kindred, Thomas",
+            speaker: "Thomas Kindred",
             university: "",
-            title: "Talk title",
-            description: "",
+            title: "TBA",
+            description: "TBA",
             start: "2025-02-06T20:00:00Z",
             duration: 1.0,
           },
           {
-            speaker: "Dynnikov, Ivan",
+            speaker: "Ivan Dynnikov",
             university: "",
             title: "Rectangular diagrams of links, surfaces, and foliations",
             description: "The formalism of rectangular diagrams provides a convenient framework for representing links and surfaces in the three-sphere in a consistent manner. They appear to have a strong connection with contact topology, as well as nice combinatorial properties, which make them useful for solving algorithmic and classification problems of knot theory. In particular, they allow to construct a particularly simple algorithm for recognizing the unknot and to solve the problem of algorithmic classification of Legendrian and transverse links. One can also use rectangular diagrams to obtain explicit presentations of finite depth taut foliations in link complements.",
