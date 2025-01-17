@@ -112,7 +112,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "Free time slot",
             description: "Free time slot",
             start: "2025-02-02T01:00:00Z",
             duration: 1.0,
@@ -120,7 +120,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "Free time slot",
             description: "Free time slot",
             start: "2025-02-02T01:00:00Z",
             duration: 1.0,
@@ -128,7 +128,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "Free time slot",
             description: "Free time slot",
             start: "2025-02-02T01:00:00Z",
             duration: 1.0,
@@ -747,7 +747,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "Free time slot",
             description: "Free time slot",
             start: "2025-02-05T12:00:00Z",
             duration: 1.0,
@@ -881,7 +881,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "Free time slot",
             description: "Free time slot",
             start: "2025-02-06T02:00:00Z",
             duration: 1.0,
@@ -889,7 +889,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "Free time slot",
             description: "Free time slot",
             start: "2025-02-06T02:00:00Z",
             duration: 1.0,
@@ -897,7 +897,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "Free time slot",
             description: "Free time slot",
             start: "2025-02-06T02:00:00Z",
             duration: 1.0,
@@ -907,7 +907,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "Free time slot",
             description: "Free time slot",
             start: "2025-02-06T03:00:00Z",
             duration: 1.0,
@@ -915,7 +915,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "Free time slot",
             description: "Free time slot",
             start: "2025-02-06T03:00:00Z",
             duration: 1.0,
@@ -923,7 +923,7 @@ function get_all_talks(){
           {
             speaker: "Speaker Name",
             university: "",
-            title: "Talk title",
+            title: "Free time slot",
             description: "Free time slot",
             start: "2025-02-06T03:00:00Z",
             duration: 1.0,
