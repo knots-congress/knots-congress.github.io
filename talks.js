@@ -763,10 +763,10 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Oshiro, Kanako",
+            speaker: "Kanako Oshiro",
             university: "",
-            title: "Talk title",
-            description: "",
+            title: "Minimum numbers of Dehn colors of knots and symmetric local biquandle cocycle invariants",
+            description: "In this talk, we give a method to evaluate minimum numbers of Dehn colors for knots by using symmetric local biquandle cocycle invariants. In particular, we show that there exist knots which are distinguished by minimum numbers of Dehn colors.<br/><br/>This is a joint work with Eri Matsudo and Gaishi Yamagishi.",
             start: "2025-02-05T13:00:00Z",
             duration: 1.0,
           },
