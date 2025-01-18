@@ -126,10 +126,10 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Speaker Name",
+            speaker: "Samuel Lomonaco",
             university: "",
-            title: "Free time slot",
-            description: "Free time slot",
+            title: "How to build a device that cannot be built",
+            description: "Our objective is to illustrate the weirdness of quantum mechanics with a concrete simple device that encapsulates the GHZ paradox. We begin by defining this device in terms of engineering specs. \begin{itemize} \item We then show that there is no way this device can be built using the laws of classical physics. \item However, we then show how it can be built within the laws of quantum physics. \end{itemize} In so doing, we come face-to-face with a concrete example of the GHZ Paradox, a well known illustration of quantum entanglement weirdness.",
             start: "2025-02-02T01:00:00Z",
             duration: 1.0,
           }
