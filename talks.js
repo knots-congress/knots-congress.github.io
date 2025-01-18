@@ -112,16 +112,16 @@ function get_all_talks(){
           {
             speaker: "Sonia Mahmoudi",
             university: "",
-            title: "Free time slot",
-            description: "Free time slot",
+            title: "TBA",
+            description: "TBA",
             start: "2025-02-02T01:00:00Z",
             duration: 1.0,
           },
           {
             speaker: "Seongjeong Kim",
             university: "",
-            title: "Free time slot",
-            description: "Free time slot",
+            title: "TBA",
+            description: "TBA",
             start: "2025-02-02T01:00:00Z",
             duration: 1.0,
           },
@@ -747,8 +747,8 @@ function get_all_talks(){
           {
             speaker: "Ioannis Diamantis",
             university: "",
-            title: "Free time slot",
-            description: "Free time slot",
+            title: "TBA",
+            description: "TBA",
             start: "2025-02-05T12:00:00Z",
             duration: 1.0,
           }
@@ -907,8 +907,8 @@ function get_all_talks(){
           {
             speaker: "Alexander Mednykh",
             university: "",
-            title: "Free time slot",
-            description: "Free time slot",
+            title: "TBA",
+            description: "TBA",
             start: "2025-02-06T03:00:00Z",
             duration: 1.0,
           },
