@@ -611,8 +611,8 @@ function get_all_talks(){
           {
             speaker: "Anastasiia Tsvietkova",
             university: "",
-            title: "Hyperbolicity and Volumes of Charm Bracelets",
-            description: "We consider a specific subset of staked links called charm bracelets and discuss a variety of results about when they are hyperbolic and what we can say about their volumes.",
+            title: "TBA",
+            description: "TBA",
             start: "2025-02-04T14:00:00Z",
             duration: 1.0,
           }
