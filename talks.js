@@ -110,7 +110,7 @@ function get_all_talks(){
       [ // part 3
         [
           {
-            speaker: "Speaker Name",
+            speaker: "Sonia Mahmoudi",
             university: "",
             title: "Free time slot",
             description: "Free time slot",
@@ -118,7 +118,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Speaker Name",
+            speaker: "Seongjeong Kim",
             university: "",
             title: "Free time slot",
             description: "Free time slot",
@@ -162,7 +162,7 @@ function get_all_talks(){
         ],
         [
           {
-            speaker: "Seongjeong Kim",
+            speaker: "Speaker's name",
             university: "",
             title: "TBA",
             description: "",
@@ -404,7 +404,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Scott Carter",
+            speaker: "Ljubica Velimirovic",
             university: "",
             title: "TBA",
             description: "",
@@ -511,7 +511,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Sonia Mahmoudi",
+            speaker: "Scott Carter",
             university: "",
             title: "TBA",
             description: "",
@@ -583,7 +583,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Anastasiia Tsvietkova",
+            speaker: "Dorothy Buck",
             university: "",
             title: "TBA",
             description: "",
@@ -609,7 +609,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Colin Adams",
+            speaker: "Anastasiia Tsvietkova",
             university: "",
             title: "Hyperbolicity and Volumes of Charm Bracelets",
             description: "We consider a specific subset of staked links called charm bracelets and discuss a variety of results about when they are hyperbolic and what we can say about their volumes.",
@@ -745,7 +745,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Speaker Name",
+            speaker: "Ioannis Diamantis",
             university: "",
             title: "Free time slot",
             description: "Free time slot",
@@ -879,10 +879,10 @@ function get_all_talks(){
         },
         [// section 1
           {
-            speaker: "Speaker Name",
+            speaker: "Colin Adams",
             university: "",
-            title: "Free time slot",
-            description: "Free time slot",
+            title: "Hyperbolicity and Volumes of Charm Bracelets",
+            description: "We consider a specific subset of staked links called charm bracelets and discuss a variety of results about when they are hyperbolic and what we can say about their volumes.",
             start: "2025-02-06T02:00:00Z",
             duration: 1.0,
           },
@@ -905,7 +905,7 @@ function get_all_talks(){
         ],
         [// section 2
           {
-            speaker: "Speaker Name",
+            speaker: "Alexander Mednykh",
             university: "",
             title: "Free time slot",
             description: "Free time slot",
