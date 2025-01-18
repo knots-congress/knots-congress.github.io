@@ -118,10 +118,10 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Seongjeong Kim",
+            speaker: "Marithania Silvero",
             university: "",
-            title: "TBA",
-            description: "TBA",
+            title: "On a conjecture of Lou on alternative and pseudoalternating links",
+            description: "In 1983 Louis Kauffman introduced the family of alternative links, as a generalization of alternating links.  It is known that alternative links are pseudoalternating. Kauffman conjectured the converse. In this talk we show that both families are equal in the particular case of knots of genus one. However, Kauffman's Conjecture does not hold in general, as we also show by finding two counterexamples. In the way we will deal with the intermediate family of homogeneous links, introduced by Peter Cromwell; the techniques used here allow us to give an explicit characterization of homogeneous links of genus 1.",
             start: "2025-02-02T01:00:00Z",
             duration: 1.0,
           },
@@ -162,10 +162,10 @@ function get_all_talks(){
         ],
         [
           {
-            speaker: "Marithania Silvero",
+            speaker: "Seongjeong Kim",
             university: "",
-            title: "On a conjecture of Lou on alternative and pseudoalternating links",
-            description: "In 1983 Louis Kauffman introduced the family of alternative links, as a generalization of alternating links.  It is known that alternative links are pseudoalternating. Kauffman conjectured the converse. In this talk we show that both families are equal in the particular case of knots of genus one. However, Kauffman's Conjecture does not hold in general, as we also show by finding two counterexamples. In the way we will deal with the intermediate family of homogeneous links, introduced by Peter Cromwell; the techniques used here allow us to give an explicit characterization of homogeneous links of genus 1.",
+            title: "TBA",
+            description: "TBA",
             start: "2025-02-02T03:00:00Z",
             duration: 1.0,
           },
