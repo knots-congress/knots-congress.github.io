@@ -906,9 +906,9 @@ function get_all_talks(){
         [// section 2
           {
             speaker: "Alexander Mednykh",
-            university: "",
-            title: "TBA",
-            description: "TBA",
+            university: "Sobolev Institute of Mathematics, Novosibirsk, Russia",
+            title: "Plans theorem for knots and graphs",
+            description: "This is joint work with  <span style=\"color: blue\">$Lilia\\,\\,Grunwald,\\, Young\\,Soo\\,\\,Kwon,\\,  Ilya\\,\\,Mednykh\\, and \\,Galina\\,\\,Sokolova$</span>.<br/><br/>Let $K$ be a knot in the three dimensional sphere $\\mathbb{S}^{3}.$ Denote by $M_{n}$ a cyclic $n$-fold covering of $\\mathbb{S}^{3}$ branched over $K.$ The results presented in this lecture are motivated by the classical theorem of Spanish mathematician Antonio Plans (1953) which told us that $$H_{1}(M_{n},\\mathbb{Z})=A\\oplus A \\text{ if } n \\text{ is odd and}$$ $$\\textrm{Ker}\\,(H_{1}(M_{n},\\mathbb{Z})\\to H_{1}(M_{2},\\mathbb{Z}))= A\\oplus A \\text{ if } n \\text{ is even},$$  for a suitable Abelian group $A.$<br/><br/>Our goal is to give a constructive proof of Plans theorem for the first homology group of cyclic coverings of knots as well as for the critical group of cyclic branched coverings of graphs.",
             start: "2025-02-06T03:00:00Z",
             duration: 1.0,
           },
