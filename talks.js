@@ -913,10 +913,10 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Speaker Name",
+            speaker: "Andrei Vesnin",
             university: "",
-            title: "Free time slot",
-            description: "Free time slot",
+            title: "TBA",
+            description: "TBA",
             start: "2025-02-06T03:00:00Z",
             duration: 1.0,
           },
