@@ -771,10 +771,10 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Paolo Cavicchiolli",
+            speaker: "Paolo Cavicchioli",
             university: "",
-            title: "TBA",
-            description: "",
+            title: "Using persistent homology for the identification of lasso proteins",
+            description: "This presentation introduces a novel methodology for detecting Lasso proteins, a distinct category of knotted proteins. Traditionally, addressing this challenge involved utilizing surface triangulations, incurring significant computational expenses. The talk will provide a concise overview of persistent homology, highlighting its merits and drawbacks in the context of Lasso protein detection. Several illustrative examples and outcomes will be presented.<br/><br/>The research is conducted in collaboration with Professor Boštjan Gabrovšek, Joanna Sułkowska, Bartosz Greń and Žiga Virk.",
             start: "2025-02-05T13:00:00Z",
             duration: 1.0,
           }
