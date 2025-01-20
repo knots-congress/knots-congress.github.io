@@ -414,8 +414,8 @@ function get_all_talks(){
           {
             speaker: "Bartosz Gren",
             university: "",
-            title: "TBA",
-            description: "",
+            title: "The classification of algebraic tangles",
+            description: "In 1970 John Conway created a notion of a ``tangle''. Tangles can be seen as a building blocks of knots and are a basis of knot tabulation. Using tangles Conway managed to tabulate all knots up to 11 crossings, and links up to 10 crossings. Moreover, he found a bijection relation between rational numbers and a subclass of tangles called ``rational tangles'', thus fully classifying this subset of algebraic tangles.<br><br>Over 50 years later we extended Conway work. We introduced a binary tree notation, which helped us to define a unique ``canonical representation'' for algebraic tangles. This let us classify algebraic tangles up to 14 crossings. Moreover we studied symmetry groups of algebraic tangles.<br><br> During the talk I'll introduce you to the theory of tangles and present our results. It is a joint work with Bo\v{s}tjan Gabrov\v{s}ek and Joanna Sulkowska.",
             start: "2025-02-03T14:00:00Z",
             duration: 1.0,
           }
