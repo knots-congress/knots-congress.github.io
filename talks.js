@@ -853,8 +853,8 @@ function get_all_talks(){
           {
             speaker: "Thomas Kindred",
             university: "",
-            title: "TBA",
-            description: "TBA",
+            title: "Downstream lessons from a geometric proof of Tait's flyping conjecture",
+            description: "In 1993, Menasco and Thistlethwaite proved Tait's 1898 \"flyping conjecture\", which states that all reduced alternating diagrams of any prime link are related by a single type of move.  Recently, I gave a new proof of the flyping theorem, which more fully illuminates its geometric content. I will sketch the proof and describe some insights and inquiries that I have found downstream of it, <span style=\"color: #9F0FFF\">including and by way of</span><br/><br/>(1) an extension of the flyping theorem to virtual links;<br/>(2) implications for the combinatorics of alternating diagrams; and<br/>(3) counterintuitive observations regarding essential surfaces, Goeritz matrices, and related notions.",
             start: "2025-02-06T20:00:00Z",
             duration: 1.0,
           },
