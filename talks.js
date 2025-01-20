@@ -700,9 +700,9 @@ function get_all_talks(){
         [
           {
             speaker: "Rama Mishra",
-            university: "",
-            title: "TBA",
-            description: "TBA",
+            university: "IISER Pune",
+            title: "Asymptotics in the coefficients of Jones polynomial of Weaving knots $W(3,n)$",
+            description: "In this talk we produce a closed form expression of Jones polynomial for weaving knot family $W(3,n)$ and study the distribution in the coefficients as n grows large.",
             start: "2025-02-05T03:00:00Z",
             duration: 1.0,
           },
