@@ -799,8 +799,8 @@ function get_all_talks(){
           {
             speaker: "Valeriy Bardakov",
             university: "",
-            title: "TBA",
-            description: "",
+            title: "Multi-virtual  braid groups and their representations",
+            description: "In this talk we discuss some analogues of the braid group. In particular, $2$-sort braid-like groups, which include virtual braid groups, singular braid group and some of their quotients. Further, we discuss multi-virtual braid groups which were introduced by Prof. Kauffman in 2024. <br/><br/>We define some of their subgroups and construct representations of multi-virtual braid groups by automorphisms of some groups. Using these representations we find invariants for multiple virtual knots and links.",
             start: "2025-02-05T14:00:00Z",
             duration: 1.0,
           }
