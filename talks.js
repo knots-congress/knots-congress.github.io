@@ -304,7 +304,7 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Lowrance Adam",
+            speaker: "Adam Lowrance",
             university: "",
             title: "Arc index and Turaev genus",
             description: "An arc presentation of a knot is an embedding of the knot in finitely many pages of an open-book decomposition such that the portion of the knot on each page is a single simple arc. The arc index of a knot is the minimum number of pages in any arc presentation of the knot. The Turaev surface of a knot diagram $D$ is constructed by first taking the cobordism between the all-A and all-B states of $D$ with saddle points corresponding to the crossings of $D$, and then capping off the boundary components of that cobordism with disks. The Turaev genus of a knot is the minimum genus of the Turaev surface for any diagram. In this talk, we discuss a relationship between the crossing number, arc index, and Turaev genus of a knot. This is joint work with Alvaro Del Valle Vilchez.",
@@ -717,8 +717,8 @@ function get_all_talks(){
           {
             speaker: "Eleni Panagiotou",
             university: "",
-            title: "TBA",
-            description: "TBA",
+            title: "On the neighborhood of knots",
+            description: "In this talk, a new framework for the study of knots by exploring the neighborhood of knot embeddings in the space of (collections of) simple open and closed curves in 3-space will be introduced. The latter gives rise to a knotoid (or linkoid) spectrum of a knot, which determines the knot type not only via its knot-type knotoids, but also its pure knotoids. For example, we will prove that the pure knotoids in the knotoid spectra of a knot, which are individually agnostic of the knot type, can distinguish knots of Gordian distance greater than one. We will also prove that the neighborhood of, at least, some embeddings of the unknot can be distinguished from any embedding of any non-trivial knot that satisfies the cosmetic crossing conjecture. \\Topological invariants of knots can be extended to their open curve neighborhood to define continuous functions in the neighborhood of knots. We will discuss their properties and prove that invariants in the neighborhood of knots may be able to distinguish more knots than their application to the knots themselves. For example, we will prove that an invariant of knots that fails to distinguish mutant knots (and mutant knotoids), can distinguish them by their neighborhoods, unless it also fails to distinguish non-mutant pure knotoids in their spectra. Studying the neighborhood of knots opens the possibility of answering questions, such as if an invariant can detect the unknot, via examining possibly easier questions, such as whether it can distinguish height one knotoids from the trivial knotoid.",
             start: "2025-02-05T03:00:00Z",
             duration: 1.0,
           }
