@@ -731,8 +731,8 @@ function get_all_talks(){
           {
             speaker: "Neslihan Gügümcü",
             university: "",
-            title: "TBA",
-            description: "TBA",
+            title: "Mock Alexander Polynomials",
+            description: "This talk is joint work with Louis Kauffman. Discovered by James Waddell Alexander in 1928, the Alexander polynomial is the first knot invariant given in (Laurent) polynomial form. Then in 1969, John Conway rediscovered the Alexander polynomial through the skein relation. In this talk, we generalize the Formal Knot Theory state sum model of the Alexander-Conway polynomial to invariants that apply to numerous situations where the link diagram is configured so that the number of crossings is equal to the number of admissible regions. This includes knotoids and linkoids and certain cases of knots and links in thickened surfaces. All invariants are described by a state summation and are formulated as evaluations of the permanent of a matrix associated with the state sum. Beyond the classical case, there is chirality detection in these invariants. Possible categorifications of the invariants will also be discussed if time permits.",
             start: "2025-02-05T12:00:00Z",
             duration: 1.0,
           },
