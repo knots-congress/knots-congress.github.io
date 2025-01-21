@@ -791,8 +791,8 @@ function get_all_talks(){
           {
             speaker: "Stefan Klaus",
             university: "",
-            title: "TBA",
-            description: "",
+            title: "On the singular, algebraic, PL and Fourier degrees of knots",
+            description: "About ten years ago, we considered the algebraic, PL and Fourier degree of knots and braids and studied some of their relations (see p. 283-296 in the Springer conference volume \"Algebraic modeling of topological and computational structures and applications\" by Sofia Lambropoulou (ed.) et al., THALES, Athens, Greece, July 1-3, 2015 and the Oberwolfach Report OWR 11.2 of the workshop \"Algebraic Structures in Low-Dimensional Topology\", report 2014-26, p.32-36). Now we introduce a forth numerical invariant, the singular degree of a knot, and study its relation to the other three invariants. The singular degree is defined via isolated singularities of complex curves.",
             start: "2025-02-05T14:00:00Z",
             duration: 1.0,
           },
