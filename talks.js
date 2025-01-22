@@ -531,7 +531,7 @@ function get_all_talks(){
           {
             speaker: "Hanna Makaruk",
             university: "",
-            title: "TBA",
+            title: "Topological Invariant of Manifolds in Slawianowski’s Field Theory, a Gauge Choice",
             description: "",
             start: "2025-02-04T03:00:00Z",
             duration: 1.0,
