@@ -179,9 +179,9 @@ function get_all_talks(){
           },
           {
             speaker: "Shin Satoh",
-            university: "",
-            title: "TBA",
-            description: "",
+            university: "Kobe University",
+            title: "Applications of polynomial invariants of a long virtual knot",
+            description: "We will introduce several polynomial invariants of a long virtual knot and give their applications as follows:<br/><br/>(1) By closing a long virtual knot, we obtain a virtual knot. We will prove that for any virtual knot, there are infinitely many long virtual knots whose closure is the given virtual knot. As a corollary, there are infinitely many \"connected sums\" of any pair of virtual knots.<br/>This is a joint work with R. Higa, T. Nakamura, and Y. Nakanishi.<br/><br/>(2) A long virtual knot is presented by a diagram on a $1$- or $2$-punctured oriented compact surface. This enables us to define two kinds of supporting genera of a long virtual knot $K$, denoted by $sg_1(K)$ and $sg_2(K)$, so that we have a filtration $LV_1(0)\\subset LV_2(0)\\subset LV_1(1)\\subset LV_2(1)\\subset\\cdots$, where $LV_i(g)$ is the set of long virtual knots $K$ satisfying $sg_i(K)\\leq g$. We will prove that $LV_1(0)\\ne LV_2(0)\\ne LV_1(1)\\ne LV_2(1)$.<br/>This is a joint work with T. Nakamura, Y. Nakanishi, and K. Wada.",
             start: "2025-02-02T03:00:00Z",
             duration: 1.0,
           }
