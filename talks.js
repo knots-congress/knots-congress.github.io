@@ -747,8 +747,8 @@ function get_all_talks(){
           {
             speaker: "Ioannis Diamantis",
             university: "",
-            title: "TBA",
-            description: "TBA",
+            title: "Kauffman Bracket Skein Modules of Lens Spaces and Beyond: New Results in Honor of Louis Kauffman's 80th Birthday",
+            description: "The Kauffman bracket skein module (KBSM) generalizes the Jones polynomial to arbitrary $3$-manifolds, offering insights into their geometric and topological properties. In this talk, in honor of Louis Kauffman’s 80th birthday, we develop a braid-theoretic framework for computing the KBSM of $3$-manifolds and focus on its structure for lens spaces, including $S^1\\times S^2$. Our approach utilizes the generalized Temperley-Lieb algebra of type B, that we also introduce. Time permitting, we will also present the Kauffman bracket polynomial for pseudo knots in the solid torus and handlebodies, as well as for knotoids in the solid torus, highlighting new results inspired by Kauffman’s pioneering work.",
             start: "2025-02-05T12:00:00Z",
             duration: 1.0,
           }
