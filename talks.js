@@ -29,9 +29,9 @@ function get_all_talks(){
           },
           {
             speaker: "Mikami Hirasawa",
-            university: "",
-            title: "TBA",
-            description: "",
+            university: "Nagoya Institute of Technology",
+            title: "Construction and manipulation of Seifert surfaces in knot theory",
+            description: "In this talk, I present a survey of our work on the construction and manipulation of Seifert surfaces in knot theory.<br/>Topics covered include the following: Seifert surfaces preserved by a strong involution (with Sakuma and Hiura), fiber surfaces with hidden Hopf plumbings (with Murasugi), fiber surfaces with arbitrary enhanced Milnor numbers (with Rudolph), a new fiber-producing twisting operation (with Van Quach), saddle point braids on fiberations of homogeneous braids (with Ben Bode), and other related developments.",
             start: "2025-02-01T13:00:00Z",
             duration: 1.0,
           }
