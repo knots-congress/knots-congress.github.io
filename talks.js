@@ -914,9 +914,9 @@ function get_all_talks(){
           },
           {
             speaker: "Andrei Vesnin",
-            university: "",
-            title: "TBA",
-            description: "TBA",
+            university: "Sobolev Institute of Mathematics",
+            title: "Volumes of right-angled polyhedra with applications to hyperbolic knots",
+            description: "A polyhedron in a hyperbolic 3-space is said to be right-angled if all its dihedral angles are $\pi/2$. Right-angled polyhedra with ideal vertices arise naturally in complements for a large class of hyperbolic links. We will give upper bounds on the volumes of right-angled polyhedra. We will show that these bounds allow to improve some results on volumes of hyperbolic knots and links in the case when a reduced diagram has more than eight twists.<br/><br/>Partially based on:  A. Vesnin, A. Egorov, Upper bounds for volumes of generalized hyperbolic polyhedra and hyperbolic links. Siberian Math. J. 2024, 65(3), 534-551.",
             start: "2025-02-06T03:00:00Z",
             duration: 1.0,
           },
