@@ -164,8 +164,8 @@ function get_all_talks(){
           {
             speaker: "Seongjeong Kim",
             university: "",
-            title: "TBA",
-            description: "TBA",
+            title: "On the Kauffman bracket skein module of $\\mathbf {(S^1 \\times S^2) \\ \\# \\ (S^1 \\times S^2)}$",
+            description: "Determining the structure of the Kauffman bracket skein module of all $3$-manifolds over the ring of Laurent polynomials $\\mathbb Z[A^{\\pm 1}]$ is a big open problem in skein theory. Very little is known about the skein module of non-prime manifolds over this ring. In this paper, we compute the Kauffman bracket skein module of the $3$-manifold $(S^1 \\times S^2) \\ \\# \\ (S^1 \\times S^2)$ over the ring $\\mathbb Z[A^{\\pm 1}]$. We do this by analysing the submodule of handle sliding relations, for which we provide a suitable basis. Along the way we compute the Kauffman bracket skein module of $(S^1 \\times S^2) \\ \\# \\ (S^1 \\times D^2)$. We also show that the skein module of $(S^1 \\times S^2) \\ \\# \\ (S^1 \\times S^2)$ does not split into the sum of free and torsion submodules. Furthermore, we illustrate two families of torsion elements in this skein module.<br/><br/>This is joint work with Rhea Palak Bakshi, Shangjun Shi, and Xiao Wang.",
             start: "2025-02-02T03:00:00Z",
             duration: 1.0,
           },
