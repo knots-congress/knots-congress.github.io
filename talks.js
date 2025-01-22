@@ -757,8 +757,8 @@ function get_all_talks(){
           {
             speaker: "Gyo Taek Jin",
             university: "",
-            title: "TBA",
-            description: "",
+            title: "Arc Index and Minimal Grid Diagrams of the Prime Knots with 14 Crossings",
+            description: "In $\\mathbb R^3$ every knot can be embedded in the union of finitely many halfplanes having a common boundary line such that each halfplane contains a properly embedded single arc of the knot. Such an embedding is called an <i>arc presentation</i>. The minimal number of halfplanes required for an arc presentation of  a knot is called the <i>arc index</i> of the knot. Every knot has a diagram which is a non-simple rectilinear polygon such that vertical edges  cross over horizontal edges at all crossings. It is called a <i>grid diagram</i>. It is easily seen that an arc presentation gives rise to a grid diagram and vice versa. In this talk, we explain how minimal grid diagrams of the prime knots with $14$ cossings are obtained and thus their arc index is determined.<br/><br/><img src='/assets/Gyo_Taek_Jin.png'/><br/>This is a joint work with many others to be named during the talk.",
             start: "2025-02-05T13:00:00Z",
             duration: 1.0,
           },
