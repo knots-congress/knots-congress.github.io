@@ -519,10 +519,10 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Liu peng yu,",
+            speaker: "Liu Pengyu",
             university: "",
-            title: "TBA",
-            description: "",
+            title: "Designing complete polynomial invariants of rooted trees and cactus networks",
+            description: "Rooted trees and networks are discrete structures often used to record important information in life sciences, linguistics, computer science and many other fields of research. For example, phylogenetic networks record evolutionary histories, and rooted trees can represent RNA structures and syntaxes of sentences. The advancements in technologies including  next generation sequencing, deep learning and natural language processing have produced myriad structure data. Polynomial invariants can provide computationally efficient, label independent, comprehensive and interpretable encoding of discrete structures. They allow for analyzing extensive structure data using modern data analytics tools. In this talk, we introduce such complete polynomial invariants of rooted trees and cactus networks, and discuss very initial insights into the profound connections between polynomial invariants and discrete structures.",
             start: "2025-02-04T02:00:00Z",
             duration: 1.0,
           }
