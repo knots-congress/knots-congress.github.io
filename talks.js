@@ -244,8 +244,8 @@ function get_all_talks(){
           {
             speaker: "John Bryden",
             university: "Southern Illinois University",
-            title: "TBA",
-            description: "",
+            title: "Computing Deloup’s Invariant",
+            description: "Florian Deloup constructs TQFTs he refers to as abelian TQFTs. The invariant he obtains is a quantum invariant, however it is invariant only up to homotopy type. The calculation depends on Deloup’s Reciprocity Theorem which allows us to express the invariant in terms of the linking form of the manifold. We show that the linking form of any closed, connected, oriented $3$-manifold can be calculated in terms of orthogonal sums of linking forms of Seifert fibered rational homology spheres.",
             start: "2025-02-02T14:00:00Z",
             duration: 1.0,
           }
