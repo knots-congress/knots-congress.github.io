@@ -532,7 +532,7 @@ function get_all_talks(){
             speaker: "Hanna Makaruk",
             university: "Los Alamos National Laboratory",
             title: "Topological Invariant of Manifolds in Slawianowski’s Field Theory, a Gauge Choice",
-            description: "",
+            description: "First topological invariants of manifolds based on quantum field theories and only smooth structures, without using a metric were defined by Schwarz and Witten. They focused on an example of Chern-Simons’ theory on 3D manifolds.<br/><br/>Sławianowski based his field theory on frame/coframe fields without a metric. It is a theory, which satisfies the Witten postulate.<br/><br/>A Witten-type topological invariant can be introduced in Sławianowski’s framework, using a path integral over the reper fields. Such invariant behaves differently for group manifolds than for all others. It additionally distinguishes semi-simple Lie group manifolds from other group manifolds.<br/><br/>A problem of the theory is the Lagrangian has a form of square root of the determinant of a matrix built in complicated way from the frame/coframe fields and their derivatives. Special \"gauge\" choices in certain special but quite general cases that break general covariance but result in Lagrangians without square root are found.",
             start: "2025-02-04T03:00:00Z",
             duration: 1.0,
           },
