@@ -583,9 +583,9 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Dorothy Buck",
-            university: "Duke University",
-            title: "TBA",
+            speaker: "Speaker Name",
+            university: "",
+            title: "Free time slot",
             description: "",
             start: "2025-02-04T13:00:00Z",
             duration: 1.0,
