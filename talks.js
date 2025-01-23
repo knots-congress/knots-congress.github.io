@@ -162,10 +162,10 @@ function get_all_talks(){
         ],
         [
           {
-            speaker: "Seongjeong Kim",
-            university: "Jilin University",
-            title: "On the Kauffman bracket skein module of $\\mathbf {(S^1 \\times S^2) \\ \\# \\ (S^1 \\times S^2)}$",
-            description: "Determining the structure of the Kauffman bracket skein module of all $3$-manifolds over the ring of Laurent polynomials $\\mathbb Z[A^{\\pm 1}]$ is a big open problem in skein theory. Very little is known about the skein module of non-prime manifolds over this ring. In this paper, we compute the Kauffman bracket skein module of the $3$-manifold $(S^1 \\times S^2) \\ \\# \\ (S^1 \\times S^2)$ over the ring $\\mathbb Z[A^{\\pm 1}]$. We do this by analysing the submodule of handle sliding relations, for which we provide a suitable basis. Along the way we compute the Kauffman bracket skein module of $(S^1 \\times S^2) \\ \\# \\ (S^1 \\times D^2)$. We also show that the skein module of $(S^1 \\times S^2) \\ \\# \\ (S^1 \\times S^2)$ does not split into the sum of free and torsion submodules. Furthermore, we illustrate two families of torsion elements in this skein module.<br/><br/>This is joint work with Rhea Palak Bakshi, Shangjun Shi, and Xiao Wang.",
+            speaker: "Adam Sikora",
+            university: "University at Buffalo",
+            title: "The latest advances in the theory of the Kauffman bracket skein modules",
+            description: "The Kauffman bracket skein module $S(M)$ extends the Kauffman bracket polynomial from links in $R^3$ to arbitrary $3$-manifolds $M$. This notion is at the heart of a currently rapidly developing theory with connections to Teichmüller theory, Floer homology, representations of fundamental groups and their character varieties, cluster algebras, quantum invariants, quantum Teichmüller spaces, TQFTs, and other areas of topology, algebra, and quantum physics.<br/><br/>In this talk, we will provide an accessible introduction to some of these connections and present the latest method of computing skein modules, developed in collaboration with E. Kalfagianni and R. Detcherry.",
             start: "2025-02-02T03:00:00Z",
             duration: 1.0,
           },
