@@ -895,10 +895,10 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Speaker Name",
-            university: "",
-            title: "Free time slot",
-            description: "Free time slot",
+            speaker: "Mohamed Elhamdadi",
+            university: "University of South Florida",
+            title: "Knot Groups, Quandles and Orderability",
+            description: "We introduce orderability and circular orderability of quandles and give some examples. We show that a non-trivial circular orderable quandle must be infinite.  We examine circular orderability of fundamental link quandles. We use quandles to give a new perspective of the non-bi-orderability of knot groups.  Precisely, we will show that if L is an oriented prime link such that the link quandle of $L$ is right orderable then the link group of $L$ is not bi-circular orderable and thus not bi-orderable (for example, non trivial torus knots).<br/><br/>This is a joint work with Idrissa Ba.",
             start: "2025-02-06T02:00:00Z",
             duration: 1.0,
           }
