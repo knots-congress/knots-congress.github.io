@@ -386,10 +386,10 @@ function get_all_talks(){
             duration: 1.0,
           },
           {
-            speaker: "Dušan D. Repovš",
-            university: "Faculty of Mathematics and Physics, University of Ljubljana, Jadranska 19, Ljubljana, Slovenia",
-            title: "Applications of Kauffman’s polynomial: Nonstandard embeddings of the Cantor set into $\\mathbb{R}^{3}$",
-            description: "In the last 20 years there has been a revival of interest in constructions of wild Cantor sets in $\\mathbb{R}^{3}$ which were first discovered a century ago. These new wild examples have some additional properties, for example Lipschitz homogeneity in $\\mathbb{R}^{3},$ rigidity in $\\mathbb{R}^{3},$ simple connectivity of the complement in $\\mathbb{R}^{3},$ etc. We shall consider such a construction where the Kauffmann bracket polynomial is used to establish its properties. We shall also state some open problems and conjectures.",
+            speaker: "Speaker Name",
+            university: "",
+            title: "Free time slot",
+            description: "",
             start: "2025-02-03T13:00:00Z",
             duration: 1.0,
           }
