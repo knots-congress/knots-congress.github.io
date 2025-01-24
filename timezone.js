@@ -4,7 +4,7 @@ Date.prototype.addHours= function(value){
     return this;
 }
 
-function gmtChange(self){
+function gmtChange(self, inline){
   var value = self.value;
   var time_elements = document.querySelectorAll(' div[talk_time_utc]');
   var i;
@@ -22,22 +22,30 @@ function gmtChange(self){
     var s_mm = start_datetime.getUTCMinutes().toString().padStart(2,0);
     var e_hh = end_datetime.getUTCHours().toString().padStart(2,0);
     var e_mm = end_datetime.getUTCMinutes().toString().padStart(2,0);
-    item.innerHTML = `<p>&#128467; ${date}</p><p>&#128337; ${s_hh}:${s_mm} - ${e_hh}:${e_mm}</p>`;
+    item.innerHTML = inline  ? `<p>&#128467; ${date} &nbsp &nbsp &#128337; ${s_hh}:${s_mm} - ${e_hh}:${e_mm}</p>`
+                             : `<p>&#128467; ${date}</p><p>&#128337; ${s_hh}:${s_mm} - ${e_hh}:${e_mm}</p>`;
   }
+
+  sessionStorage.setItem("timezone", value);
 }
 
-function setupTalkTimes(){
+function setupTalkTimes(inline=false){
   var tz_offcet = (-1)*(new Date()).getTimezoneOffset()/60;
   var tz_selector = document.getElementById('timezone-offset');
-  var tz_options = tz_selector.children;
-  var i;
-  for (i=0; i < tz_options.length; i++){
-    var tz_option = tz_options[i];
-    if (Number.parseFloat(tz_option.value) == tz_offcet){
-      tz_selector.value = tz_option.value;
-      break;
+  if (sessionStorage.getItem("timezone")){
+    tz_selector.value = sessionStorage.getItem("timezone");
+  }
+  else {
+    var tz_options = tz_selector.children;
+    var i;
+    for (i=0; i < tz_options.length; i++){
+      var tz_option = tz_options[i];
+      if (Number.parseFloat(tz_option.value) == tz_offcet){
+        tz_selector.value = tz_option.value;
+        break;
+      }
     }
   }
 
-  gmtChange(tz_selector);
+  gmtChange(tz_selector, inline);
 }

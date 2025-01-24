@@ -13,7 +13,7 @@
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
-    <title>Conference Schedule | The First International On-line Knot Theory Congress</title>
+    <title>Schedule of moderators | The First International On-line Knot Theory Congress</title>
     <script>
         function setupCollapsabled () {
           var coll = document.getElementsByClassName("collapsible");
@@ -46,10 +46,9 @@
     <script type="text/javascript">
         function createTalk(id, speaker, university, title, description, start, duration, moderators){
           return `
-            <p class="title"><a href="/program#${id}">${title}</a></p>
             <div class="talk-time-value" duration="${duration}" talk_time_utc="${start}"></div>
-            <p class="speaker">
-              ${speaker} ${university ? ('(' + university + ')') : ''}
+            <p class="moderator">
+              ${moderators.join(", ")}
             </p>
           `
         }
@@ -101,7 +100,7 @@
             setupTalks();
             setupCollapsabled();
             enableNearestDay();
-            setupTalkTimes();
+            setupTalkTimes(true);
             MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
@@ -125,10 +124,10 @@
 
     <div class="when-container">
         <div class="when-label">
-            <h1>Conference Schedule</h1>
+            <h1>Schedule of moderators</h1>
         </div>
         <div class="gmt-label">
-            <select name="timezone_offset" id="timezone-offset" class="timezone-box" onchange="gmtChange(this)"/>
+            <select name="timezone_offset" id="timezone-offset" class="timezone-box" onchange="gmtChange(this, true)"/>
             <option value="-08:00">PST/Los Angeles</option>
             <option value="-06:00">CST/Chicago</option>
             <option value="-05:00">EST/New York</option>

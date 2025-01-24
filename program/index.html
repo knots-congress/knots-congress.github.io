@@ -16,7 +16,7 @@
     <script type="text/javascript" src="/timezone.js"></script>
     <script type="text/javascript" src="/talks.js"></script>
     <script>
-        function createTalk(id, speaker, university, title, description, start, duration){
+        function createTalk(id, speaker, university, title, description, start, duration, moderators){
             return `
                 <table id="${id}">
                     <tr>
@@ -44,7 +44,7 @@
         function createTaskFromJs(day, part, sec, talk, obj){
             const speaker_id = obj.speaker.toLowerCase().replace(/[^a-z]/g,'');
             const id = `day_${day}_part_${part}_${sec < 1 ? 'plenary' : 'sec_' + sec}` + (sec < 1 ? '' : `_talk_${talk}`) + `_${speaker_id}`;
-            return createTalk(id, obj.speaker, obj.university, obj.title, obj.description, obj.start, obj.duration);
+            return createTalk(id, obj.speaker, obj.university, obj.title, obj.description, obj.start, obj.duration, obj.moderators);
         }
 
         function setupTalks(){
