@@ -941,7 +941,7 @@ function get_all_talks(){
             university: "University of Southern California and Michigan State University",
             title: "Invisible $\\mathrm{SL}_n$-skeins",
             description: "For a Lie group $G$, the $G$-skein module of a $3$-dimensional manifold $M$ is a fundamental object in Witten’s interpretation of quantum knot invariants in the framework of a topological quantum field theory. When $G=\\mathrm{SL}_2$, the $\\mathrm{SL}_2$-module is better known as the Kauffman bracket skein module, and is closely related to the Jones polynomial. When the quantum parameter $q$ is a root of unity, the $\\mathrm{SL}_n$-skein module contains elements with a surprising “invisibility” property, in the sense that they can be traversed by any other skein without changing the resulting total skein. I will give a brief description of these invisible elements, based on the classical theory of symmetric polynomials in $n$ variables.",
-            start: "2025-02-06T20:00:00Z",
+            start: "2025-02-05T20:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"]
           },
@@ -950,7 +950,7 @@ function get_all_talks(){
             university: "Wake Forest University",
             title: "Downstream lessons from a geometric proof of Tait's flyping conjecture",
             description: "In 1993, Menasco and Thistlethwaite proved Tait's 1898 \"flyping conjecture\", which states that all reduced alternating diagrams of any prime link are related by a single type of move.  Recently, I gave a new proof of the flyping theorem, which more fully illuminates its geometric content. I will sketch the proof and describe some insights and inquiries that I have found downstream of it, including and by way of<br/><br/>(1) an extension of the flyping theorem to virtual links;<br/>(2) implications for the combinatorics of alternating diagrams; and<br/>(3) counterintuitive observations regarding essential surfaces, Goeritz matrices, and related notions.",
-            start: "2025-02-06T20:00:00Z",
+            start: "2025-02-05T20:00:00Z",
             duration: 1.0,
             moderators: ["Igor Nikonov", "Illia Rohozhkin"]
           },
@@ -959,7 +959,7 @@ function get_all_talks(){
             university: "Steklov Mathematical Institute",
             title: "Rectangular diagrams of links, surfaces, and foliations",
             description: "The formalism of rectangular diagrams provides a convenient framework for representing links and surfaces in the three-sphere in a consistent manner. They appear to have a strong connection with contact topology, as well as nice combinatorial properties, which make them useful for solving algorithmic and classification problems of knot theory. In particular, they allow to construct a particularly simple algorithm for recognizing the unknot and to solve the problem of algorithmic classification of Legendrian and transverse links. One can also use rectangular diagrams to obtain explicit presentations of finite depth taut foliations in link complements.",
-            start: "2025-02-06T20:00:00Z",
+            start: "2025-02-05T20:00:00Z",
             duration: 1.0,
             moderators: ["Lucrezia Lorenzi", "Illia Rohozhkin"]
           }
