@@ -911,7 +911,7 @@ function get_all_talks(){
             speaker: "Allison Henrich",
             university: "Seattle University",
             title: "A Tour of Knotty Tricks, Games, and Puzzles",
-            description: "TBA",
+            description: "For this talk, you'll want to bring a rope! If you happen to have a magician's rope lying around---a nice, thick and flexible rope about 5 feet long---bring it. Otherwise, a thick shoelace will do. We'll begin our playful exploration by learning Lou's favorite magic rope trick---the Chefalo trick---and we'll explore various generalizations of it that Lou and I have (re)discovered. Talk-goers will also have a chance to learn about games you can play involving knots, links, and a variety of unknotting and unlinking operations. We'll wrap up the fun with some ideas for how to puzzle-ify mathematical results to capture the interest of non-knot theorists, enticing them to learn more about our beloved field!",
             start: "2025-02-05T19:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"]
