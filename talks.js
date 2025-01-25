@@ -910,8 +910,8 @@ function get_all_talks(){
           {
             speaker: "Allison Henrich",
             university: "Seattle University",
-            title: "One Dimensional Families of Riemann Surfaces with Automorphisms",
-            description: "The moduli space $\\mathcal{M}_{g}$ of surfaces of genus $g\\geq 2$ is the space of conformal equivalence classes of closed Riemann surfaces of genus $g$. This space is a complex, quasi-projective variety of dimension $3g-3$, and geometrically an orbifold under the action of the modular group. The set of singular points, the <i>branch locus</i>, may be stratified into a finite, disjoint union of smooth, irreducible, quasi-projective subvarieties called <i>equisymmetric strata</i>. Each stratum corresponds to a collection of surfaces of the same <i>symmetry type</i>, i.e. the conjugacy class of a finite group in the modular group.<br/><br/>The (complex) 1D strata are Riemann surfaces with punctures. We study these strata as punctured Riemann surfaces, in terms of the action of the automorphism group of the surfaces in the stratum. In this way the strata can be constructed, a la Hurwitz, as (branched) coverings of the Riemann sphere with four punctures or a torus with one puncture. We see that such strata are in fact Belyi curves. It will be interesting to see which ones are given by regular dessins d'enfants.",
+            title: "A Tour of Knotty Tricks, Games, and Puzzles",
+            description: "TBA",
             start: "2025-02-05T19:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"]
