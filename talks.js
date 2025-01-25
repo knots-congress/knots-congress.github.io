@@ -632,8 +632,8 @@ function get_all_talks(){
           {
             speaker: "Nikolai Abrosimov",
             university: "Sobolev Institute of Mathematics",
-            title: "TBA",
-            description: "",
+            title: "Euclidean volume of a cone manifold over any hyperbolic knot is an algebraic number",
+            description: "A hyperbolic structure on a three-dimensional cone manifold with a knot as a singular set can usually be deformed into a limit Euclidean structure. In our paper [1] we show that the corresponding normalized Euclidean volume of the manifold is always an algebraic number, i.e., a root of some polynomial with integer coefficients. This result is a generalization (for cone manifolds) of the well-known Sabitov theorem on the volumes of Euclidean polyhedra, which gave an answer to the bellows problem. The fact we established stands out against the background of hyperbolic volumes, the number-theoretic nature of which is usually quite complex. In addition to this theorem, we propose an algorithm that allows one to explicitly calculate the minimal polynomial for a normalized Euclidean volume.<br/><br/><b>Example</b><br/><br/>Cone manifold over a knot $5_2$ has a normalized Euclidean volume $$1/\\left(6\\sqrt{-6+68\\sqrt{2}+4\\sqrt{983+946\\sqrt{2}}} \\right)=0.009909630999945638\\ldots$$ Its minimal polynomial is $$1+864\\,x^2-64457856\\,x^4-412091172864\\,x^6-785065068490752\\,x^8.$$ The talk is based on our joint work [1] with Alexander Kolpakov and Alexander Mednykh.<br/><br/><b/>References</b><br/><br/>[1] N. Abrosimov, A. Kolpakov, A. Mednykh, Euclidean volumes of hyperbolic knots Proc. Amer. Math. Soc. 152 (2024), 869-881. DOI: 10.1090/proc/16353",
             start: "2025-02-04T13:00:00Z",
             duration: 1.0,
             moderators: ["Vassily Manturov", "Seongjeong Kim"]
