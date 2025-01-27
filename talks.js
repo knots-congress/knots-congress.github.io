@@ -921,7 +921,7 @@ function get_all_talks(){
             university: "George Washington University",
             title: "Homology of Yang-Baxter operators: from Lou Kauffman \"Braids\" paper to  HOMFLYPT Yang-Baxter homology.",
             description: "In the Spring of 1984 I traveled to Zaragoza to visit Josè Montesinos. I was, then, working  on incompressible surfaces (with Maite Lozano) and I just discovered  the (conjectural) smallest volume hyperbolic 3-manifold. I talked about these topics in Zaragoza. However,  Josè also showed me notes by Lou Kauffman, who visited Zaragoza before me. The notes were the base of the future book \"On Knots\".<br/><br/>What caught my attention was reference to the work by physicists Ball and Metha on an inductive proof of the existence of the Alexander polynomial. Lou incorporated in the notes an outline of the proof. Few months later we were able to prove (with Paweł Traczyk in November-December 1984) the existence of the generalized Jones (HOMFLYPT) link polynomial invariant. Almost 30 years later (in 2012) I was able to define/construct the homology of a general Yang-Baxter operator (in friendly competition with Victoria Lebed). I am now computing with my students and grand-students homology of the HOMFLYPT Yang-Baxter operator. In my talk I describe my winding path from 1984 till 2025, from Lou Kauffman hint to Yang-Baxter homology.",
-            start: "2025-02-05T17:00:00Z",
+            start: "2025-02-05T19:00:00Z",
             duration: 1.0,
             moderators: ["Igor Nikonov", "Illia Rohozhkin"]
           },
