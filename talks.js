@@ -190,7 +190,7 @@ function get_all_talks(){
           },
           {
             speaker: "Jessica Purcell",
-            university: "University of Melbourne",
+            university: "Monash University",
             title: "Triangulations of the 3-sphere with knotted edge",
             description: "We prove that for any knot $K$, there exists a one-vertex triangulation of the 3-sphere containing an edge forming $K$. This result is related to open questions on triangulations of 3-manifolds. It has been known since work of Moise in the 1950s that every 3-manifold admits a triangulation, or decomposition into tetrahedra. However, the following are still unknown:<br/>(1) Given a hyperbolic 3-manifold, does it admit a geometric triangulation, i.e. a decomposition into ideal tetrahedra that are positively oriented and convex with respect to the given hyperbolic metric?<br/>(2) When is a triangulation minimal, i.e. uses the least number of tetrahedra required by its topology?<br/>In combinatorics and computational topology, there are additional questions along the lines of:<br/>(3) How bad can a triangulation be?<br/><br/>In this talk, I will discuss recent results on (3). While the statement of the result is purely topological, the proof uses hyperbolic geometry, and runs into questions (1) and (2).<br/><br/>This is joint with Ibarra, Mathews, and Spreer.",
             start: "2025-02-02T03:00:00Z",
