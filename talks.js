@@ -642,7 +642,7 @@ function get_all_talks(){
             speaker: "Ruth Lawrence",
             university: "Hebrew University of jerusalem",
             title: "Fractional linking and finite dimensional fluid algebras",
-            description: "According to folklore, it is impossible to construct a faithful finite dimensional algebraic model of differential forms which preserves all three properties of (graded) commutativity, associativity and  Leibniz rule. In this talk we will demonstrate how by enlarging a cubical complex by adding certain `ideal' elements, a combinatorial transverse intersection algebra model of a torus can be constructed which does have graded commutativity and associativity while the product rule holds for elements of the original complex. The corresponding linking form now takes fractional values.",
+            description: "According to folklore, it is impossible to construct a faithful finite dimensional algebraic model of differential forms which preserves all three properties of (graded) commutativity, associativity and  Leibniz rule. In this talk we will demonstrate how by enlarging a cubical complex by adding certain 'ideal' elements, a combinatorial transverse intersection algebra model of a torus can be constructed which does have graded commutativity and associativity while the product rule holds for elements of the original complex. The corresponding linking form now takes fractional values.",
             start: "2025-02-04T13:00:00Z",
             duration: 1.0,
             moderators: ["Igor Nikonov", "Seongjeong Kim"]
@@ -662,7 +662,7 @@ function get_all_talks(){
             speaker: "John Guaschi",
             university: "Universite de Caen",
             title: "Braid groups of the sphere, (orbit)-configuration spaces and homotopy fibres",
-            description: "Let $M$ be the 2-sphere or the real projective plane. Its braid groups $B_n(M)$ are particularly interesting due to the existence of torsion, and the fact that the higher homotopy groups of the associated configuration spaces coincide with those of $S^2$. In this talk, we recall some results regarding the classification of the finite subgroups of $B_n(M)$, and we show that the homotopy fibre of the natural inclusion of the nth configuration space of $M$ into the $n$-fold Cartesian product $M^n$ is the Cartesian product of an (orbit) configuration space with a product of loop spaces of the 2-sphere. This is joint work with Daciberg Gonçalves (São Paulo).",
+            description: "Let $M$ be the 2-sphere or the real projective plane. Its braid groups $B_n(M)$ are particularly interesting due to the existence of torsion, and the fact that the higher homotopy groups of the associated configuration spaces coincide with those of $S^2$. In this talk, we recall some results regarding the classification of the finite subgroups of $B_n(M)$, and we show that the homotopy fibre of the natural inclusion of the nth configuration space of $M$ into the $n$-fold Cartesian product $M^n$ is the Cartesian product of an (orbit) configuration space with a product of loop spaces of the 2-sphere.<br/><br/>This is joint work with Daciberg Gonçalves (São Paulo).",
             start: "2025-02-04T14:00:00Z",
             duration: 1.0,
             moderators: ["Vassily Manturov", "Seongjeong Kim"]
