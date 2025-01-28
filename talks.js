@@ -661,8 +661,8 @@ function get_all_talks(){
           {
             speaker: "John Guaschi",
             university: "Universite de Caen",
-            title: "TBA",
-            description: "",
+            title: "Braid groups of the sphere, (orbit)-configuration spaces and homotopy fibres",
+            description: "Let $M$ be the 2-sphere or the real projective plane. Its braid groups $B_n(M)$ are particularly interesting due to the existence of torsion, and the fact that the higher homotopy groups of the associated configuration spaces coincide with those of $S^2$. In this talk, we recall some results regarding the classification of the finite subgroups of $B_n(M)$, and we show that the homotopy fibre of the natural inclusion of the nth configuration space of $M$ into the $n$-fold Cartesian product $M^n$ is the Cartesian product of an (orbit) configuration space with a product of loop spaces of the 2-sphere. This is joint work with Daciberg Gonçalves (São Paulo).",
             start: "2025-02-04T14:00:00Z",
             duration: 1.0,
             moderators: ["Vassily Manturov", "Seongjeong Kim"]
