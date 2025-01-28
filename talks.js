@@ -641,8 +641,8 @@ function get_all_talks(){
           {
             speaker: "Ruth Lawrence",
             university: "Hebrew University of jerusalem",
-            title: "TBA",
-            description: "",
+            title: "Fractional linking and finite dimensional fluid algebras",
+            description: "According to folklore, it is impossible to construct a faithful finite dimensional algebraic model of differential forms which preserves all three properties of (graded) commutativity, associativity and  Leibniz rule. In this talk we will demonstrate how by enlarging a cubical complex by adding certain `ideal' elements, a combinatorial transverse intersection algebra model of a torus can be constructed which does have graded commutativity and associativity while the product rule holds for elements of the original complex. The corresponding linking form now takes fractional values.",
             start: "2025-02-04T13:00:00Z",
             duration: 1.0,
             moderators: ["Igor Nikonov", "Seongjeong Kim"]
