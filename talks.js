@@ -429,9 +429,9 @@ function get_all_talks(){
             moderators: ["Paolo Cavicchioli", "Seongjeong Kim"]
           },
           {
-            speaker: "Speaker Name",
-            university: "",
-            title: "Free time slot",
+            speaker: "Joanna Kania-Bartoszynska",
+            university: "National Science Foundation",
+            title: "Kauffman bracket skein modules and algebras",
             description: "",
             start: "2025-02-03T13:00:00Z",
             duration: 1.0,
