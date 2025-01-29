@@ -432,7 +432,7 @@ function get_all_talks(){
             speaker: "Joanna Kania-Bartoszynska",
             university: "National Science Foundation",
             title: "Kauffman bracket skein modules and algebras",
-            description: "",
+            description: "The Kauffman bracket skein module of a $3$-manifold M is formed by taking linear combinations of isotopy classes of framed links in M and dividing the resulting space by the  relations defining the Kauffman bracket. When a manifold is a cylinder over a surface it has an algebra structure. It is closely related to the coordinate ring of the $SL(2,C)$-character variety of the underlying manifold.<br/><br/>We study the structure of skein modules, and skein algebras and their representation theory.<br/><br/>The talk is based on joint work with Charles D. Frohman and Thang Q. Le, and with Mohammad Farajzadeh Tehrani.",
             start: "2025-02-03T13:00:00Z",
             duration: 1.0,
             moderators: ["Seongjeong Kim"]
