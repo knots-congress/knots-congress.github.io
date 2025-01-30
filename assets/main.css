@@ -202,7 +202,8 @@ div.pl-speaker {
  td.date{white-space:nowrap; width:130px; text-align:right; vertical-align:top; padding:4px 16px 0px 0px;}
  td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: black; height:32px; font-family:'Times New Roman', Times, serif; text-shadow: 1px 1px 2px #d0d0d0; }
  td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: black; height:32px; font-family:'Times New Roman', Times, serif; text-shadow: 1px 1px 2px #d0d0d0;}
- td.speaker, p.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
+ td.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
+ p.speaker{font-style: normal; font-size:1em; max-height:999999px}
  td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px; text-align: justify;}
  td.abstract img{display: block; margin: 4px auto 8px auto}
  table.plenary{padding-top: 8px; background: #ffffff;}

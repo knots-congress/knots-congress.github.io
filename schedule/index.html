@@ -47,13 +47,9 @@
         function createTalk(id, speaker, university, title, description, start, duration, moderators, zoom_link){
           return `
             <p class="title"><a href="/program#${id}">${title}</a></p>
-            <div>
+            <p class="speaker">&#x1F50A; ${speaker} ${university ? ('(' + university + ')') : ''}</p>
             <div class="talk-time-value" duration="${duration}" talk_time_utc="${start}"></div>
             <div style="display: flex; line-height: 18px;"><img src="assets/zoom-logo.png" width="18 px" height="18px" style="margin-right: 3px;"/><a href="${zoom_link}" target="_blank">Zoom link for talk</a></div>
-            </div>
-            <p class="speaker">
-              ${speaker} ${university ? ('(' + university + ')') : ''}
-            </p>
           `
         }
 
