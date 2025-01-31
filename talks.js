@@ -635,7 +635,7 @@ function get_all_talks(){
             zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
           },
           {
-            speaker: "Liu Pengyu",
+            speaker: "Pengyu Liu",
             university: "University of Rhode Island",
             title: "Designing complete polynomial invariants of rooted trees and cactus networks",
             description: "Rooted trees and networks are discrete structures often used to record important information in life sciences, linguistics, computer science and many other fields of research. For example, phylogenetic networks record evolutionary histories, and rooted trees can represent RNA structures and syntaxes of sentences. The advancements in technologies including  next generation sequencing, deep learning and natural language processing have produced myriad structure data. Polynomial invariants can provide computationally efficient, label independent, comprehensive and interpretable encoding of discrete structures. They allow for analyzing extensive structure data using modern data analytics tools. In this talk, we introduce such complete polynomial invariants of rooted trees and cactus networks, and discuss very initial insights into the profound connections between polynomial invariants and discrete structures.",
@@ -789,10 +789,10 @@ function get_all_talks(){
             zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
           },
           {
-            speaker: "Igor Nikonov",
-            university: "Moscow State University",
-            title: "The crossing and the arc from the topological viewpoint",
-            description: "Combinatorial approach to knot theory treats knots as diagrams modulo Reidemeister moves. Many constructions of knot invariants (e.g., index polynomials, quandle colorings etc.) use elements of diagrams such as arcs and crossings by assigning invariant labels to them. The universal invariant labels, which carry the most information, can be thought of as equivalence classes of arcs and crossings modulo the relation, which identifies corresponding elements of diagrams connected by a Reidemeister move. One can call these equivalence classes the arcs and crossings of the knot. In the talk we give a topological description of sets of these classes.",
+            speaker: "Jozef H. Przytycki",
+            university: "George Washington University",
+            title: "Homology of Yang-Baxter operators: from Lou Kauffman \"Braids\" paper to  HOMFLYPT Yang-Baxter homology.",
+            description: "In the Spring of 1984 I traveled to Zaragoza to visit Josè Montesinos. I was, then, working  on incompressible surfaces (with Maite Lozano) and I just discovered  the (conjectural) smallest volume hyperbolic 3-manifold. I talked about these topics in Zaragoza. However,  Josè also showed me notes by Lou Kauffman, who visited Zaragoza before me. The notes were the base of the future book \"On Knots\".<br/><br/>What caught my attention was reference to the work by physicists Ball and Metha on an inductive proof of the existence of the Alexander polynomial. Lou incorporated in the notes an outline of the proof. Few months later we were able to prove (with Paweł Traczyk in November-December 1984) the existence of the generalized Jones (HOMFLYPT) link polynomial invariant. Almost 30 years later (in 2012) I was able to define/construct the homology of a general Yang-Baxter operator (in friendly competition with Victoria Lebed). I am now computing with my students and grand-students homology of the HOMFLYPT Yang-Baxter operator. In my talk I describe my winding path from 1984 till 2025, from Lou Kauffman hint to Yang-Baxter homology.",
             start: "2025-02-04T19:00:00Z",
             duration: 1.0,
             moderators: ["Kokkinakis", "Illia Rohozhkin"],
@@ -1009,10 +1009,10 @@ function get_all_talks(){
             zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
           },
           {
-            speaker: "Jozef H. Przytycki",
-            university: "George Washington University",
-            title: "Homology of Yang-Baxter operators: from Lou Kauffman \"Braids\" paper to  HOMFLYPT Yang-Baxter homology.",
-            description: "In the Spring of 1984 I traveled to Zaragoza to visit Josè Montesinos. I was, then, working  on incompressible surfaces (with Maite Lozano) and I just discovered  the (conjectural) smallest volume hyperbolic 3-manifold. I talked about these topics in Zaragoza. However,  Josè also showed me notes by Lou Kauffman, who visited Zaragoza before me. The notes were the base of the future book \"On Knots\".<br/><br/>What caught my attention was reference to the work by physicists Ball and Metha on an inductive proof of the existence of the Alexander polynomial. Lou incorporated in the notes an outline of the proof. Few months later we were able to prove (with Paweł Traczyk in November-December 1984) the existence of the generalized Jones (HOMFLYPT) link polynomial invariant. Almost 30 years later (in 2012) I was able to define/construct the homology of a general Yang-Baxter operator (in friendly competition with Victoria Lebed). I am now computing with my students and grand-students homology of the HOMFLYPT Yang-Baxter operator. In my talk I describe my winding path from 1984 till 2025, from Lou Kauffman hint to Yang-Baxter homology.",
+            speaker: "Igor Nikonov",
+            university: "Moscow State University",
+            title: "The crossing and the arc from the topological viewpoint",
+            description: "Combinatorial approach to knot theory treats knots as diagrams modulo Reidemeister moves. Many constructions of knot invariants (e.g., index polynomials, quandle colorings etc.) use elements of diagrams such as arcs and crossings by assigning invariant labels to them. The universal invariant labels, which carry the most information, can be thought of as equivalence classes of arcs and crossings modulo the relation, which identifies corresponding elements of diagrams connected by a Reidemeister move. One can call these equivalence classes the arcs and crossings of the knot. In the talk we give a topological description of sets of these classes.",
             start: "2025-02-05T19:00:00Z",
             duration: 1.0,
             moderators: ["Igor Nikonov", "Illia Rohozhkin"],
