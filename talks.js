@@ -468,17 +468,17 @@ function get_all_talks(){
             description: "In this talk I will remind the concept of integral group for a group of matrices in a number field $K$. This is a necessary condition to be an arithmetic group. Some examples of 3-dimensional orbifolds with knots or links as singular set whose fundamental group is an integral group will be presented. I will also state some open questions.<br/><br/>Partially based on: M.T. Lozano, J.M.Montesinos-Amilibia: “Integral geometric orbifolds”.  J. Knot Theory Ramifications 30 (2021), no. 12, Paper No. 2141010.",
             start: "2025-02-03T13:00:00Z",
             duration: 1.0,
-            moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
+            moderators: ["Seongjeong Kim"],
             zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
           },
           {
-            speaker: "Joanna Kania-Bartoszynska",
-            university: "National Science Foundation",
-            title: "Kauffman bracket skein modules and algebras",
-            description: "The Kauffman bracket skein module of a $3$-manifold M is formed by taking linear combinations of isotopy classes of framed links in M and dividing the resulting space by the  relations defining the Kauffman bracket. When a manifold is a cylinder over a surface it has an algebra structure. It is closely related to the coordinate ring of the $SL(2,C)$-character variety of the underlying manifold.<br/><br/>We study the structure of skein modules, and skein algebras and their representation theory.<br/><br/>The talk is based on joint work with Charles D. Frohman and Thang Q. Le, and with Mohammad Farajzadeh Tehrani.",
+            speaker: "Paolo Cavicchioli",
+            university: "University of Modena",
+            title: "Using persistent homology for the identification of lasso proteins",
+            description: "This presentation introduces a novel methodology for detecting Lasso proteins, a distinct category of knotted proteins. Traditionally, addressing this challenge involved utilizing surface triangulations, incurring significant computational expenses. The talk will provide a concise overview of persistent homology, highlighting its merits and drawbacks in the context of Lasso protein detection. Several illustrative examples and outcomes will be presented.<br/><br/>The research is conducted in collaboration with Professor Boštjan Gabrovšek, Joanna Sułkowska, Bartosz Greń and Žiga Virk.",
             start: "2025-02-03T13:00:00Z",
             duration: 1.0,
-            moderators: ["Seongjeong Kim"],
+            moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
             zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
           }
         ],
@@ -500,7 +500,7 @@ function get_all_talks(){
             description: "To study energies and shape of geometrical objects, namely of surfaces, curves and knots, we use curvature and  curvature based functionals, Willmore energy, total curvature, total torsion, total normalcy and Möbius energy. We investigate infinitesimal bending using Differntial geometry.<br/><br/>The talk is based on the book with the same title prepared by professor Kauffman, L. Velimirovic, M. Najdanovic and S. Rancic, and the papers based on reasrch of the same authors. ",
             start: "2025-02-03T14:00:00Z",
             duration: 1.0,
-            moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
+            moderators: ["Seongjeong Kim"],
             zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
           },
           {
@@ -510,7 +510,7 @@ function get_all_talks(){
             description: "In 1970 John Conway created a notion of a \"tangle\". Tangles can be seen as a building blocks of knots and are a basis of knot tabulation. Using tangles Conway managed to tabulate all knots up to $11$ crossings, and links up to $10$ crossings. Moreover, he found a bijection relation between rational numbers and a subclass of tangles called \"rational tangles\", thus fully classifying this subset of algebraic tangles.<br/><br/>Over 50 years later we extended Conway work. We introduced a binary tree notation, which helped us to define a unique \"canonical representation\" for algebraic tangles. This let us classify algebraic tangles up to $14$ crossings. Moreover we studied symmetry groups of algebraic tangles.<br/><br/>During the talk I'll introduce you to the theory of tangles and present our results.<br/><br/>It is a joint work with Boštjan Gabrovšek and Joanna Sułkowska.",
             start: "2025-02-03T14:00:00Z",
             duration: 1.0,
-            moderators: ["Seongjeong Kim"],
+            moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
             zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
           }
         ]
@@ -943,10 +943,10 @@ function get_all_talks(){
             zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
           },
           {
-            speaker: "Paolo Cavicchioli",
-            university: "University of Modena",
-            title: "Using persistent homology for the identification of lasso proteins",
-            description: "This presentation introduces a novel methodology for detecting Lasso proteins, a distinct category of knotted proteins. Traditionally, addressing this challenge involved utilizing surface triangulations, incurring significant computational expenses. The talk will provide a concise overview of persistent homology, highlighting its merits and drawbacks in the context of Lasso protein detection. Several illustrative examples and outcomes will be presented.<br/><br/>The research is conducted in collaboration with Professor Boštjan Gabrovšek, Joanna Sułkowska, Bartosz Greń and Žiga Virk.",
+            speaker: "Joanna Kania-Bartoszynska",
+            university: "National Science Foundation",
+            title: "Kauffman bracket skein modules and algebras",
+            description: "The Kauffman bracket skein module of a $3$-manifold M is formed by taking linear combinations of isotopy classes of framed links in M and dividing the resulting space by the  relations defining the Kauffman bracket. When a manifold is a cylinder over a surface it has an algebra structure. It is closely related to the coordinate ring of the $SL(2,C)$-character variety of the underlying manifold.<br/><br/>We study the structure of skein modules, and skein algebras and their representation theory.<br/><br/>The talk is based on joint work with Charles D. Frohman and Thang Q. Le, and with Mohammad Farajzadeh Tehrani.",
             start: "2025-02-05T13:00:00Z",
             duration: 1.0,
             moderators: ["Seongjeong Kim"],
