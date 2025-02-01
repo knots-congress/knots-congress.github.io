@@ -21,8 +21,11 @@
                 <table id="${id}">
                     <tr>
                         <td class="date" rowspan="3">
-                            <div class="talk-time-value" talk_time_utc="${start}" duration="${duration}"></div>
-                            <div style="display: flex; line-height: 18px;"><img src="assets/zoom-logo.png" width="18 px" height="18px" style="margin-right: 3px;"/><a href="${zoom_link}" target="_blank">Zoom link for talk</a></div>
+                            <div class="talk-time-value schedule-item-details" talk_time_utc="${start}" duration="${duration}"></div>
+                            <div class="schedule-item-details">
+                                <div style="line-height: 20px; text-align: center"><img src="assets/zoom-logo.png" class="talk-img-icon" /></div>
+                                <div><a href="${zoom_link}" target="_blank">Zoom link for talk</a></div>
+                            </div>
                         </td>
                         <td class="title">
                             ${title}

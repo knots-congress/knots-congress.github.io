@@ -45,11 +45,26 @@
     <script type="text/javascript" src="/talks.js"></script>
     <script type="text/javascript">
         function createTalk(id, speaker, university, title, description, start, duration, moderators, zoom_link){
+          /*
           return `
             <p class="title"><a href="/program#${id}">${title}</a></p>
             <p class="speaker">&#x1F50A; ${speaker} ${university ? ('(' + university + ')') : ''}</p>
             <div class="talk-time-value" duration="${duration}" talk_time_utc="${start}"></div>
             <div style="display: flex; line-height: 18px;"><img src="assets/zoom-logo.png" width="18 px" height="18px" style="margin-right: 3px;"/><a href="${zoom_link}" target="_blank">Zoom link for talk</a></div>
+          `
+          */
+          return `
+            <p class="title"><a href="/program#${id}">${title}</a></p>
+            <div class="schedule-item-details">
+              <div class="talk-desc-icon">&#x1F50A;</div><div class="speaker">${speaker} ${university ? ('(' + university + ')') : ''}</div>
+            </div>
+            <div class="talk-time-value schedule-item-details" duration="${duration}" talk_time_utc="${start}"></div>
+            <div class="schedule-item-details">
+              <div class="talk-desc-icon">
+                <img src="assets/zoom-logo.png" class="talk-img-icon"/>
+              </div>
+              <div><a href="${zoom_link}" target="_blank">Zoom link for talk</a></div>
+            </div>
           `
         }
 

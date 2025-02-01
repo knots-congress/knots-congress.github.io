@@ -22,8 +22,8 @@ function gmtChange(self, inline){
     var s_mm = start_datetime.getUTCMinutes().toString().padStart(2,0);
     var e_hh = end_datetime.getUTCHours().toString().padStart(2,0);
     var e_mm = end_datetime.getUTCMinutes().toString().padStart(2,0);
-    item.innerHTML = inline  ? `<p><span style="margin-right: 2pt;">&#128467;</span> ${date} &nbsp &nbsp &#128337; ${s_hh}:${s_mm} - ${e_hh}:${e_mm}</p>`
-                             : `<p><span style="margin-right: 2pt;">&#128467;</span> ${date}</p><p>&#128337; ${s_hh}:${s_mm} - ${e_hh}:${e_mm}</p>`;
+    item.innerHTML = inline  ? `<p><span style="margin-right: 2pt;">&#128467;</span> ${date} &#128337; ${s_hh}:${s_mm} - ${e_hh}:${e_mm}</p>`
+                             : `<div class="talk-desc-icon">&#128467;</div><div>${date}</div><div class="talk-desc-icon">&#128337;</div><div>${s_hh}:${s_mm} - ${e_hh}:${e_mm}</div>`;
   }
 
   sessionStorage.setItem("timezone", value);

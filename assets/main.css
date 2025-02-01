@@ -199,7 +199,7 @@ div.pl-speaker {
 
  /* The Table on the Program Page */
  td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
- td.date{white-space:nowrap; width:130px; text-align:right; vertical-align:top; padding:4px 16px 0px 0px;}
+ td.date{white-space:nowrap; width:130px; vertical-align:top; padding:4px 16px 0px 0px;}
  td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: black; height:32px; font-family:'Times New Roman', Times, serif; text-shadow: 1px 1px 2px #d0d0d0; }
  td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: black; height:32px; font-family:'Times New Roman', Times, serif; text-shadow: 1px 1px 2px #d0d0d0;}
  td.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
@@ -286,6 +286,21 @@ button.collapsible:hover {
     margin: 0 25px 0 25px;
 }
 
+.schedule-item-details {
+    display: grid;
+    grid-template-columns: 24px auto;
+}
+
+.talk-desc-icon {
+    text-align: center;
+}
+
+.talk-img-icon {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+}
+
  /* My hacky way of making the site mobile-friendly */
  @media only screen and (max-width: 1100px) {
      body {width: 95%;}
@@ -298,5 +313,9 @@ button.collapsible:hover {
      td.date{font-size:1em; padding-top:0.5em;}
      table.footer{font-size:0.33em;}
      */
+     div.talk-desc-icon { font-size: 8pt;}
+     div.schedule-item-details { grid-template-columns: 48px auto; font-size: 8pt;}
+     p.title {font-size: 8pt;}
+     img.talk-img-icon { width: 1.5em; height: 1.5em; }
  }
  
