@@ -303,7 +303,8 @@ function get_all_talks(){
             start: "2025-02-02T14:00:00Z",
             duration: 1.0,
             moderators: ["Jonathan Schneider", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            type: 'cancelled'
           }
         ]
       ],

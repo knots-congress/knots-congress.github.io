@@ -44,15 +44,8 @@
     <script type="text/javascript" src="/timezone.js"></script>
     <script type="text/javascript" src="/talks.js"></script>
     <script type="text/javascript">
-        function createTalk(id, speaker, university, title, description, start, duration, moderators, zoom_link){
-          /*
-          return `
-            <p class="title"><a href="/program#${id}">${title}</a></p>
-            <p class="speaker">&#x1F50A; ${speaker} ${university ? ('(' + university + ')') : ''}</p>
-            <div class="talk-time-value" duration="${duration}" talk_time_utc="${start}"></div>
-            <div style="display: flex; line-height: 18px;"><img src="assets/zoom-logo.png" width="18 px" height="18px" style="margin-right: 3px;"/><a href="${zoom_link}" target="_blank">Zoom link for talk</a></div>
-          `
-          */
+        function createTalk(id, speaker, university, title, description, start, duration, moderators, zoom_link, type){
+          zoom_link_html = type == 'cancelled' ? '<b>Cancelled</b>' : `<a href="${zoom_link}" target="_blank">Zoom link for talk</a>`;
           return `
             <p class="title"><a href="/program#${id}">${title}</a></p>
             <div class="schedule-item-details">
@@ -63,7 +56,7 @@
               <div class="talk-desc-icon">
                 <img src="assets/zoom-logo.png" class="talk-img-icon"/>
               </div>
-              <div><a href="${zoom_link}" target="_blank">Zoom link for talk</a></div>
+              <div>${zoom_link_html}</div>
             </div>
           `
         }
@@ -71,7 +64,7 @@
         function createTaskFromJs(day, part, sec, talk, obj){
             const speaker_id = obj.speaker.toLowerCase().replace(/[^a-z]/g,'');
             const id = `day_${day}_part_${part}_${sec < 1 ? 'plenary' : 'sec_' + sec}` + (sec < 1 ? '' : `_talk_${talk}`) + `_${speaker_id}`;
-            return createTalk(id, obj.speaker, obj.university, obj.title, obj.description, obj.start, obj.duration, obj.moderators, obj.zoom_link);
+            return createTalk(id, obj.speaker, obj.university, obj.title, obj.description, obj.start, obj.duration, obj.moderators, obj.zoom_link, obj.type);
         }
 
         function setupTalks(){
@@ -90,15 +83,18 @@
                         if (Array.isArray(all_talks[day][part][section])){
                           content += '<div class="short-container">'
                           for (let talk=0; talk <  all_talks[day][part][section].length; talk++){
-                            content += '<div class="event writing start-2 short">';
-                            content += createTaskFromJs(day+1, part+1, section, talk+1, all_talks[day][part][section][talk]);
+                            const opts = all_talks[day][part][section][talk];
+                            const type = opts.hasOwnProperty('type') ? opts['type'] : '';
+                            content += `<div class="event ${type == 'cancelled' ? 'ent-law' : 'writing'} start-2 short">`;
+                            content += createTaskFromJs(day+1, part+1, section, talk+1, opts);
                             content += '</div>';
                           }
                           content += '</div>'
                         }
                         else {
                           const opts = all_talks[day][part][section];
-                          content += `<div class="event ${(opts.hasOwnProperty('type') && opts['type'] == 'birthday') ? 'corp-fi' : 'securities'} start-1 plenary">`;
+                          const type = opts.hasOwnProperty('type') ? opts['type'] : '';
+                          content += `<div class="event ${(type == 'birthday') ? 'corp-fi' : (type == 'cancelled') ? 'ent-law' : 'securities'} start-1 plenary">`;
                           content += createTaskFromJs(day+1, part+1, -1, -1, opts);
                           content += '</div>';
                         }
