@@ -670,7 +670,7 @@ function get_all_talks(){
           },
           {
             speaker: "Jonathan Schneider",
-            university: "Trinity College",
+            university: "University of Delaware",
             title: "Roto-Welded Knot Theory (revisited)",
             description: "Roto-Welded Knot Theory is a diagrammatic theory similar to Virtual Knot Theory, except that one of Virtual's forbidden $III$-moves is now permitted, and one of Virtual's permitted I-moves is now forbidden. Roto-Welded knot types are in bijective correspondence with certain classes of toral surfaces in $4$-space, called fiberwise-embedded surfaces. This talk revisits some of the results from a 2018 study by Kauffman, Ogasa, and myself, based on an idea of Satoh and Rourke.",
             start: "2025-02-04T03:00:00Z",
