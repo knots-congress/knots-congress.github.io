@@ -414,7 +414,8 @@ function get_all_talks(){
             start: "2025-02-03T02:00:00Z",
             duration: 1.0,
             moderators: ["Andrei Vesnin", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            type: 'cancelled'
           },
           {
             speaker: "Eiji Ogasa",
