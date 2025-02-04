@@ -64,7 +64,12 @@
                     for (let section=0; section < all_talks[day][part].length; section++){
                         if (Array.isArray(all_talks[day][part][section])){
                             for (let talk=0; talk <  all_talks[day][part][section].length; talk++){
-                                content += createTaskFromJs(day+1, part+1, section, talk+1, all_talks[day][part][section][talk]);
+                                const opts = all_talks[day][part][section][talk];
+                                if (opts.type == 'empty'){
+                                    continue;
+                                }
+
+                                content += createTaskFromJs(day+1, part+1, section, talk+1, opts);
                             }
                         }
                         else {
