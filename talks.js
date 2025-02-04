@@ -889,14 +889,20 @@ function get_all_talks(){
         ],
         [
           {
+            type: 'empty'
+          },
+          {
+            type: 'empty'
+          },
+          {
             speaker: "Michael Willis",
             university: "Texas A&M University",
             title: "Defining and utilizing Rasmussen invariants",
             description: "I will give an overview of various aspects of my work on defining Rasmussen invariants in a variety of contexts and using them in the study of $4$-manifold topology, including the detection of pairs of exotic $4$-manifolds.",
             start: "2025-02-05T04:00:00Z",
             duration: 1.0,
-            moderators: ["Andrei Vesnin", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            moderators: ["Qingying Deng", "Seongjeong Kim"],
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
           }
         ]
       ]

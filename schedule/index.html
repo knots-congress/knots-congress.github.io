@@ -85,9 +85,15 @@
                           for (let talk=0; talk <  all_talks[day][part][section].length; talk++){
                             const opts = all_talks[day][part][section][talk];
                             const type = opts.hasOwnProperty('type') ? opts['type'] : '';
-                            content += `<div class="event ${type == 'cancelled' ? 'ent-law' : 'writing'} start-2 short">`;
-                            content += createTaskFromJs(day+1, part+1, section, talk+1, opts);
-                            content += '</div>';
+                            if (type == 'empty'){
+                              content += '<div class="event start-2 short"></div>';
+                              continue;
+                            }
+                            else {
+                              content += `<div class="event ${type == 'cancelled' ? 'ent-law' : 'writing'} start-2 short">`;
+                              content += createTaskFromJs(day+1, part+1, section, talk+1, opts);
+                              content += '</div>';
+                            }
                           }
                           content += '</div>'
                         }
