@@ -34,10 +34,10 @@
   
         function enableNearestDay(){
           const delta = new Date() - new Date('2025-02-01T06:00:00Z');
-          var id = parseInt(delta/1000/60/60/24);
-          if (id <= 5){
-            var coll = document.getElementsByClassName("collapsible");
-            coll[id < 0 ? 0 : id > 4 ? 4 : id].nextElementSibling.style.display = 'block';
+          const day = parseInt(delta/1000/60/60/24);
+          if (day < 5){
+            const coll = document.getElementsByClassName("collapsible");
+            coll[day < 0 ? 0 : day > 4 ? 4 : day].nextElementSibling.style.display = 'block';
           }
         }
     </script>
@@ -77,7 +77,7 @@
                 content += `<button type="button" class="collapsible"><p class="date-day">${day_names[day]}</p></button>`;
                 content += '<div class="content">';
                 for (let part=0; part < all_talks[day].length; part++){
-                    const parts_html = ['<h3>First part</h3>', '<h3>Second part</h3>', '<h3>Third part</h3>']
+                    const parts_html = ['<h3>First part</h3>', '<h3>Second part</h3>', '<h3>Third part</h3>'];
                     content += parts_html[part];
                     for (let section=0; section < all_talks[day][part].length; section++){
                         if (Array.isArray(all_talks[day][part][section])){
