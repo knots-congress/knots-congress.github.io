@@ -16,16 +16,16 @@
     <script type="text/javascript" src="/timezone.js"></script>
     <script type="text/javascript" src="/talks.js"></script>
     <script>
-        function createTalk(id, speaker, university, title, description, start, duration, moderators, zoom_link, type){
-            zoom_link_html = type == 'cancelled' ? '<b>Cancelled</b>' : `<a href="${zoom_link}" target="_blank">Zoom link for talk</a>`;
+        function createTalk(id, speaker, university, title, description, start, duration, moderators, type, zoom_link, youtube_link){
+            youtube_link_html = type == 'cancelled' ? '<b>Cancelled</b>' : youtube_link != "" ? `<a href="${youtube_link}" target="_blank">Recording link</a>` : '<span></span>';
             return `
                 <table id="${id}">
                     <tr>
                         <td class="date" rowspan="3">
                             <div class="talk-time-value schedule-item-details" talk_time_utc="${start}" duration="${duration}"></div>
                             <div class="schedule-item-details">
-                                <div style="line-height: 20px; text-align: center"><img src="assets/zoom-logo.png" class="talk-img-icon" /></div>
-                                <div>${zoom_link_html}</div>
+                                <div style="line-height: 20px; text-align: center">${type == 'cancelled' ? '&#10060;' : youtube_link != '' ? '<img src="assets/youtube-logo.png" class="talk-img-icon" />' : ''}</div>
+                                <div>${youtube_link_html}</div>
                             </div>
                         </td>
                         <td class="title">
@@ -49,7 +49,7 @@
         function createTaskFromJs(day, part, sec, talk, obj){
             const speaker_id = obj.speaker.toLowerCase().replace(/[^a-z]/g,'');
             const id = `day_${day}_part_${part}_${sec < 1 ? 'plenary' : 'sec_' + sec}` + (sec < 1 ? '' : `_talk_${talk}`) + `_${speaker_id}`;
-            return createTalk(id, obj.speaker, obj.university, obj.title, obj.description, obj.start, obj.duration, obj.moderators, obj.zoom_link, obj.type);
+            return createTalk(id, obj.speaker, obj.university, obj.title, obj.description, obj.start, obj.duration, obj.moderators, obj.type, obj.zoom_link, obj.youtube_link);
         }
 
         function setupTalks(){

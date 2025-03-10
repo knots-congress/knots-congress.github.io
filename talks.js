@@ -1,4 +1,4 @@
-function get_all_talks(){
+function get_all_talks() {
   return [
     [// day 1
       [// part 1
@@ -10,7 +10,8 @@ function get_all_talks(){
           start: "2025-02-01T12:00:00Z",
           duration: 1.0,
           moderators: ["Colin Adams", "Seongjeong Kim"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/sAJLjCllxII?si=-Ed_mibssqNqbYcZ"
         },
         [// section 1
           {
@@ -21,7 +22,8 @@ function get_all_talks(){
             start: "2025-02-01T13:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: ""
           },
           {
             speaker: "Zhiyun Cheng",
@@ -31,7 +33,8 @@ function get_all_talks(){
             start: "2025-02-01T13:00:00Z",
             duration: 1.0,
             moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/lEUA3Vy6dF8?si=0_D_jXBcS1wydzGf"
           },
           {
             speaker: "Mikami Hirasawa",
@@ -41,7 +44,8 @@ function get_all_talks(){
             start: "2025-02-01T13:00:00Z",
             duration: 1.0,
             moderators: ["Neslihan Gugumcu", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: ""
           }
         ],
         [// section 2
@@ -53,7 +57,8 @@ function get_all_talks(){
             start: "2025-02-01T14:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: ""
           },
           {
             speaker: "Sam Nelson",
@@ -63,7 +68,8 @@ function get_all_talks(){
             start: "2025-02-01T14:00:00Z",
             duration: 1.0,
             moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/J4nMR1GOqRg?si=rP-JyytgeJYBSmPz"
           },
           {
             speaker: "Alessia Cattabriga",
@@ -73,7 +79,8 @@ function get_all_talks(){
             start: "2025-02-01T14:00:00Z",
             duration: 1.0,
             moderators: ["Neslihan Gugumcu", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: ""
           }
         ]
       ],
@@ -86,7 +93,8 @@ function get_all_talks(){
           start: "2025-02-01T18:00:00Z",
           duration: 1.0,
           moderators: ["Colin Adams", "Illia Rohozhkin"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/-jq53hPC2fs?si=6W0-BQtQK1kwHpfg"
         },
         {// plenary talk
           speaker: "Sergei Gukov",
@@ -96,7 +104,8 @@ function get_all_talks(){
           start: "2025-02-01T19:00:00Z",
           duration: 1.0,
           moderators: ["Colin Adams", "Illia Rohozhkin"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/0KDABFvzwPU?si=G16DQGQMlm0o44LY"
         },
         [
           {
@@ -107,7 +116,8 @@ function get_all_talks(){
             start: "2025-02-01T20:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Illia Rohozhkin"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: ""
           },
           {
             speaker: "Dominique Manchon",
@@ -117,7 +127,8 @@ function get_all_talks(){
             start: "2025-02-01T20:00:00Z",
             duration: 1.0,
             moderators: ["Paolo Cavicchioli", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/UhyPF-Axjm4?si=Dy62ISZ-Ce_2Z_Eg"
           },
           {
             speaker: "Daniel Silver",
@@ -127,7 +138,8 @@ function get_all_talks(){
             start: "2025-02-01T20:00:00Z",
             duration: 1.0,
             moderators: ["Lucrezia Lorenzi", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/ASbyn1_efvE?si=833nxon4CyHxSjBz"
           }
         ]
       ],
@@ -141,7 +153,8 @@ function get_all_talks(){
             start: "2025-02-02T01:00:00Z",
             duration: 1.0,
             moderators: ["Carmen Caprau", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/IqmJFQJkuzw?si=YLi31p2uzTI55O-9"
           },
           {
             speaker: "Marithania Silvero",
@@ -151,7 +164,8 @@ function get_all_talks(){
             start: "2025-02-02T01:00:00Z",
             duration: 1.0,
             moderators: ["Andrei Vesnin", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/gEFlVBr__zg?si=8Ys1DFDTUVanl4a4"
           },
           {
             speaker: "Samuel Lomonaco",
@@ -161,7 +175,8 @@ function get_all_talks(){
             start: "2025-02-02T01:00:00Z",
             duration: 1.0,
             moderators: ["Seiichi Kamada", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/Eny9LeAcQ1o?si=PNTdsvAHIcW-g52P"
           }
         ],
         [
@@ -173,7 +188,8 @@ function get_all_talks(){
             start: "2025-02-02T02:00:00Z",
             duration: 1.0,
             moderators: ["Carmen Caprau", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/kiK99-zGdk4?si=OetqtIkV5JojkOKp"
           },
           {
             speaker: "Alexander Stoimenow",
@@ -183,7 +199,8 @@ function get_all_talks(){
             start: "2025-02-02T02:00:00Z",
             duration: 1.0,
             moderators: ["Andrei Vesnin", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/p2sK5oJZNjU?si=VRwIoMRLQOWKLWYz"
           },
           {
             speaker: "Mario Eudave-Munoz",
@@ -193,7 +210,8 @@ function get_all_talks(){
             start: "2025-02-02T02:00:00Z",
             duration: 1.0,
             moderators: ["Seiichi Kamada", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/K98x7oX_rF0?si=bgohHiZybY85K-tr"
           }
         ],
         [
@@ -205,7 +223,8 @@ function get_all_talks(){
             start: "2025-02-02T03:00:00Z",
             duration: 1.0,
             moderators: ["Carmen Caprau", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/jGIbbek6D3A?si=cnxSLsgG5cotFwtx"
           },
           {
             speaker: "Jessica Purcell",
@@ -215,7 +234,8 @@ function get_all_talks(){
             start: "2025-02-02T03:00:00Z",
             duration: 1.0,
             moderators: ["Andrei Vesnin", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/26YFNwNf4T8?si=f95_I5Xd2JtfdCog"
           },
           {
             speaker: "Shin Satoh",
@@ -225,7 +245,8 @@ function get_all_talks(){
             start: "2025-02-02T03:00:00Z",
             duration: 1.0,
             moderators: ["Seiichi Kamada", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/qk75ZhpvsZw?si=MD5qR3Z3RNaIs8-V"
           }
         ]
       ]
@@ -240,7 +261,8 @@ function get_all_talks(){
           start: "2025-02-02T12:00:00Z",
           duration: 1.0,
           moderators: ["Seiichi Kamada", "Seongjeong Kim"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/YjEXSClViSU?si=yOpbbRYh2eVftKqy"
         },
         [// section 1
           {
@@ -251,7 +273,8 @@ function get_all_talks(){
             start: "2025-02-02T13:00:00Z",
             duration: 1.0,
             moderators: ["Seiichi Kamada", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/tLu3PRlFHhY?si=AntSut7NJsQA9ViC"
           },
           {
             speaker: "Slava Krushkal",
@@ -261,7 +284,8 @@ function get_all_talks(){
             start: "2025-02-02T13:00:00Z",
             duration: 1.0,
             moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/gUPg1aN0gQU?si=ZpgtHsaWyl681liG"
           },
           {
             speaker: "Milagros Izquierdo",
@@ -271,7 +295,8 @@ function get_all_talks(){
             start: "2025-02-02T13:00:00Z",
             duration: 1.0,
             moderators: ["Jonathan Schneider", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/ScgsIxrqe8g?si=H5OqcE70BrMp0I3j"
           }
         ],
         [// section 2
@@ -283,7 +308,8 @@ function get_all_talks(){
             start: "2025-02-02T14:00:00Z",
             duration: 1.0,
             moderators: ["Seiichi Kamada", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/8GD2aUBmQ_E?si=jJpPpsUR4RFwUxEp"
           },
           {
             speaker: "Efstratia Kalfagianni",
@@ -293,7 +319,8 @@ function get_all_talks(){
             start: "2025-02-02T14:00:00Z",
             duration: 1.0,
             moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/k8wMdx33aso?si=KGx8wyn4KSRUVbZp"
           },
           {
             speaker: "John Bryden",
@@ -303,8 +330,9 @@ function get_all_talks(){
             start: "2025-02-02T14:00:00Z",
             duration: 1.0,
             moderators: ["Jonathan Schneider", "Seongjeong Kim"],
+            type: 'cancelled',
             zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
-            type: 'cancelled'
+            youtube_link: ""
           }
         ]
       ],
@@ -317,7 +345,8 @@ function get_all_talks(){
           start: "2025-02-02T18:00:00Z",
           duration: 1.0,
           moderators: ["Colin Adams", "Illia Rohozhkin"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/FXexx0CRmLc?si=lYdbxAxhx401XEeV"
         },
         [
           {
@@ -328,7 +357,8 @@ function get_all_talks(){
             start: "2025-02-02T19:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Illia Rohozhkin"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/WLbReXVNsr8?si=l8vHYIkbqVSPEHMv"
           },
           {
             speaker: "Pedro M. G. Manchón",
@@ -338,7 +368,8 @@ function get_all_talks(){
             start: "2025-02-02T19:00:00Z",
             duration: 1.0,
             moderators: ["Carmen Caprau", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/Ng56aiYsFQ0?si=ievLQve7T7TPqx2P"
           },
           {
             speaker: "Hugh Morton",
@@ -348,7 +379,8 @@ function get_all_talks(){
             start: "2025-02-02T19:00:00Z",
             duration: 1.0,
             moderators: ["Joye Chen", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/nX-Gwor6Fw4?si=ewGaUKLZFNOf8aPY"
           }
         ],
         [
@@ -360,7 +392,8 @@ function get_all_talks(){
             start: "2025-02-02T20:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Illia Rohozhkin"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/WZZRXmaFfhU?si=pmyPnUg309NVM5Nd"
           },
           {
             speaker: "Raquel Díaz",
@@ -370,7 +403,8 @@ function get_all_talks(){
             start: "2025-02-02T20:00:00Z",
             duration: 1.0,
             moderators: ["Carmen Caprau", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/lCFAHxTwi7Q?si=oSMTyzvnsKJvDWsr"
           },
           {
             speaker: "Adam Lowrance",
@@ -380,7 +414,8 @@ function get_all_talks(){
             start: "2025-02-02T20:00:00Z",
             duration: 1.0,
             moderators: ["Joye Chen", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/sOmQRPUGN00?si=V7-3oUoiHTJS37u0"
           }
         ]
       ],
@@ -393,7 +428,8 @@ function get_all_talks(){
           start: "2025-02-03T01:00:00Z",
           duration: 1.0,
           moderators: ["Seiichi Kamada", "Vassily Manturov", "Seongjeong Kim"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/Ribdg1xEE1Y?si=CirWn-6BbVaxB216"
         },
         [
           {
@@ -404,7 +440,8 @@ function get_all_talks(){
             start: "2025-02-03T02:00:00Z",
             duration: 1.0,
             moderators: ["Seiichi Kamada", "Vassily Manturov", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/M1rFI4fsDfc?si=BCNB8RBXx8CwKoKQ"
           },
           {
             speaker: "Michael Willis",
@@ -414,8 +451,9 @@ function get_all_talks(){
             start: "2025-02-03T02:00:00Z",
             duration: 1.0,
             moderators: ["Andrei Vesnin", "Seongjeong Kim"],
+            type: 'cancelled',
             zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
-            type: 'cancelled'
+            youtube_link: "https://youtu.be/MqpIURfonWc?si=c7B44lyyTvgFUaxl"
           },
           {
             speaker: "Eiji Ogasa",
@@ -425,7 +463,8 @@ function get_all_talks(){
             start: "2025-02-03T02:00:00Z",
             duration: 1.0,
             moderators: ["Qingying Deng", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/mk37QcldDv4?si=DPJ4B3usYWZUq4wk"
           }
         ],
         {// plenary talk
@@ -436,7 +475,8 @@ function get_all_talks(){
           start: "2025-02-03T03:00:00Z",
           duration: 1.0,
           moderators: ["Seiichi Kamada", "Vassily Manturov", "Seongjeong Kim"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/CBvaV7UKAmY?si=-FivelunM2-T3SSk"
         },
       ]
     ],
@@ -450,7 +490,8 @@ function get_all_talks(){
           start: "2025-02-03T12:00:00Z",
           duration: 1.0,
           moderators: ["Colin Adams", "Seongjeong Kim"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/C1IZBwfmWrg?si=w4YlIX-5zunvQeNR"
         },
         [// section 1
           {
@@ -461,7 +502,8 @@ function get_all_talks(){
             start: "2025-02-03T13:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/a2Yz31Diw5U?si=1A2nl8k6j9Oy7sxQ"
           },
           {
             speaker: "María Teresa Lozano",
@@ -471,7 +513,8 @@ function get_all_talks(){
             start: "2025-02-03T13:00:00Z",
             duration: 1.0,
             moderators: ["Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/SPS4Ey_sHQ8?si=JKBxG4m9QfsjQ7Z0"
           },
           {
             speaker: "Paolo Cavicchioli",
@@ -481,7 +524,8 @@ function get_all_talks(){
             start: "2025-02-03T13:00:00Z",
             duration: 1.0,
             moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: ""
           }
         ],
         [// section 2
@@ -493,7 +537,8 @@ function get_all_talks(){
             start: "2025-02-03T14:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/-I8zz6R3pNw?si=5SrY57pKkwDh83Cp"
           },
           {
             speaker: "Ljubica Velimirovic",
@@ -503,7 +548,8 @@ function get_all_talks(){
             start: "2025-02-03T14:00:00Z",
             duration: 1.0,
             moderators: ["Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/Lj3bGYzHqhA?si=6djwjqFMmbg6TiXR"
           },
           {
             speaker: "Bartosz Gren",
@@ -513,7 +559,8 @@ function get_all_talks(){
             start: "2025-02-03T14:00:00Z",
             duration: 1.0,
             moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/FyrvkYv8pzM?si=VGMNTValB99ngFs8"
           }
         ]
       ],
@@ -527,7 +574,8 @@ function get_all_talks(){
           duration: 1.0,
           type: 'birthday',
           moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/u5rL7G7tNE8?si=K4zk6iuuCbSVfeuY"
         },
         {// plenary talk
           speaker: "Louis Kauffman",
@@ -537,7 +585,8 @@ function get_all_talks(){
           start: "2025-02-03T18:00:00Z",
           duration: 1.0,
           moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/7UyNdsT-_C0?si=Tx1J5v1QgWB8bi5v"
         },
         [
           {
@@ -548,7 +597,8 @@ function get_all_talks(){
             start: "2025-02-03T19:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/hwpbvn2eJ28?si=LQmDGAHwxB8CjHc0"
           },
           {
             speaker: "Joan Porti Pique",
@@ -558,7 +608,8 @@ function get_all_talks(){
             start: "2025-02-03T19:00:00Z",
             duration: 1.0,
             moderators: ["Thomas Kindred", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/L2MYL5gWE7E?si=5pVdb-rns0Q2tWTe"
           },
           {
             speaker: "De Witt Sumners",
@@ -568,7 +619,8 @@ function get_all_talks(){
             start: "2025-02-03T19:00:00Z",
             duration: 1.0,
             moderators: ["Alexander Simons", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/hk_eqxEFMs4?si=e5vPu98IbS3LYgJ0"
           }
         ],
         [
@@ -580,7 +632,8 @@ function get_all_talks(){
             start: "2025-02-03T20:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/PwZ0Ov2_Teg?si=QB1W8-W6nkNXQBYU"
           },
           {
             speaker: "Masahico Saito",
@@ -590,7 +643,8 @@ function get_all_talks(){
             start: "2025-02-03T20:00:00Z",
             duration: 1.0,
             moderators: ["Thomas Kindred", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: ""
           },
           {
             speaker: "Paweł Traczyk",
@@ -600,7 +654,8 @@ function get_all_talks(){
             start: "2025-02-03T20:00:00Z",
             duration: 1.0,
             moderators: ["Alexander Simons", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/q5tmd60qc_A?si=0UZbkQsVHPf5QLJH"
           }
         ]
       ],
@@ -613,7 +668,8 @@ function get_all_talks(){
           start: "2025-02-04T01:00:00Z",
           duration: 1.0,
           moderators: ["Colin Adams", "Seongjeong Kim"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/tc8UbvzKcxo?si=QXW5J1jWvA7SGTAq"
         },
         [
           {
@@ -624,7 +680,8 @@ function get_all_talks(){
             start: "2025-02-04T02:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/1W_PR9f8g1U?si=HXX2Asnq1D0_BTjG"
           },
           {
             speaker: "Scott Carter",
@@ -634,7 +691,8 @@ function get_all_talks(){
             start: "2025-02-04T02:00:00Z",
             duration: 1.0,
             moderators: ["Sonia Mahmoudi", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/2VGYO1XgCyE?si=9q5ndTzlo2-8L04O"
           },
           {
             speaker: "Pengyu Liu",
@@ -644,7 +702,8 @@ function get_all_talks(){
             start: "2025-02-04T02:00:00Z",
             duration: 1.0,
             moderators: ["Alexander Simons", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: ""
           }
         ],
         [
@@ -656,7 +715,8 @@ function get_all_talks(){
             start: "2025-02-04T03:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/NItzuAkTOUw?si=ecPuXqbuPJ1NsIQ3"
           },
           {
             speaker: "Sergei Melikhov",
@@ -666,7 +726,8 @@ function get_all_talks(){
             start: "2025-02-04T03:00:00Z",
             duration: 1.0,
             moderators: ["Sonia Mahmoudi", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/nNogrU-8jRQ?si=pVOX7DiC5er232ny"
           },
           {
             speaker: "Jonathan Schneider",
@@ -676,7 +737,8 @@ function get_all_talks(){
             start: "2025-02-04T03:00:00Z",
             duration: 1.0,
             moderators: ["Alexander Simons", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/lqXRYMBX0A8?si=zmrUEGYSWiU9-xLU"
           }
         ]
       ]
@@ -691,7 +753,8 @@ function get_all_talks(){
           start: "2025-02-04T12:00:00Z",
           duration: 1.0,
           moderators: ["Vassily Manturov", "Seongjeong Kim"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/BDoQEp8ORsM?si=zBz5uxd0Vg23Jjbc"
         },
         [// section 1
           {
@@ -702,7 +765,8 @@ function get_all_talks(){
             start: "2025-02-04T13:00:00Z",
             duration: 1.0,
             moderators: ["Vassily Manturov", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: ""
           },
           {
             speaker: "Ruth Lawrence",
@@ -712,7 +776,8 @@ function get_all_talks(){
             start: "2025-02-04T13:00:00Z",
             duration: 1.0,
             moderators: ["Igor Nikonov", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/IHEQpkePJHs?si=ptCzN1G14u-T7mxW"
           },
           {
             speaker: "Seongjeong Kim",
@@ -722,7 +787,8 @@ function get_all_talks(){
             start: "2025-02-04T13:00:00Z",
             duration: 1.0,
             moderators: ["Neslihan Gugumcu", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: ""
           }
         ],
         [// section 2
@@ -734,7 +800,8 @@ function get_all_talks(){
             start: "2025-02-04T14:00:00Z",
             duration: 1.0,
             moderators: ["Vassily Manturov", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/WZZRXmaFfhU?si=pmyPnUg309NVM5Nd"
           },
           {
             speaker: "Rubén Vigara",
@@ -744,7 +811,8 @@ function get_all_talks(){
             start: "2025-02-04T14:00:00Z",
             duration: 1.0,
             moderators: ["Igor Nikonov", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/xjcDKW712ew?si=MnC__BPqWPOFkAEx"
           },
           {
             speaker: "Anastasiia Tsvietkova",
@@ -754,7 +822,8 @@ function get_all_talks(){
             start: "2025-02-04T14:00:00Z",
             duration: 1.0,
             moderators: ["Neslihan Gugumcu", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/YP-Ei-gP4s8?si=0P5dYYMWCrnNFW1w"
           }
         ]
       ],
@@ -767,7 +836,8 @@ function get_all_talks(){
           start: "2025-02-04T18:00:00Z",
           duration: 1.0,
           moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/wiRym-WwQ0I?si=aAjttb6Rvr7_XNzN"
         },
         [
           {
@@ -778,7 +848,8 @@ function get_all_talks(){
             start: "2025-02-04T19:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: ""
           },
           {
             speaker: "William W. Menasco",
@@ -788,7 +859,8 @@ function get_all_talks(){
             start: "2025-02-04T19:00:00Z",
             duration: 1.0,
             moderators: ["Thomas Kindred", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/QQH22Yo9kIs?si=PLjoE73meu3jnts3"
           },
           {
             speaker: "Jozef H. Przytycki",
@@ -798,7 +870,8 @@ function get_all_talks(){
             start: "2025-02-04T19:00:00Z",
             duration: 1.0,
             moderators: ["Kokkinakis", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/fd6irMeAiuU?si=DX5Va0kG1EWLeSQr"
           }
         ],
         [
@@ -810,7 +883,8 @@ function get_all_talks(){
             start: "2025-02-04T20:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/Xl-C2K_mGOQ?si=dmauArKwMvw2whRQ"
           },
           {
             speaker: "Pedro Lopes",
@@ -820,7 +894,8 @@ function get_all_talks(){
             start: "2025-02-04T20:00:00Z",
             duration: 1.0,
             moderators: ["Thomas Kindred", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/8BhUnrfwv3g?si=4DW4BM887y4zmQ5_"
           },
           {
             speaker: "Christian Blanchet",
@@ -830,7 +905,8 @@ function get_all_talks(){
             start: "2025-02-04T20:00:00Z",
             duration: 1.0,
             moderators: ["Kokkinakis", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/e6KShJsPdgU?si=KJwIsMB880zV2UoA"
           }
         ]
       ],
@@ -843,7 +919,8 @@ function get_all_talks(){
           start: "2025-02-05T01:00:00Z",
           duration: 1.0,
           moderators: ["Colin Adams", "Seongjeong Kim"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/s0iiWXDFRd8?si=_o5diMo8RyHiKjnM"
         },
         {// plenary talk
           speaker: "Peter Ozsvath",
@@ -853,7 +930,8 @@ function get_all_talks(){
           start: "2025-02-05T02:00:00Z",
           duration: 1.0,
           moderators: ["Colin Adams", "Seongjeong Kim"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/-WEk4OEmdSM?si=TULj78RsLjtSsrU9"
         },
         [
           {
@@ -864,7 +942,8 @@ function get_all_talks(){
             start: "2025-02-05T03:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/DzLJMfsOTWA?si=LPgvyiSPktos7GFo"
           },
           {
             speaker: "Makoto Sakuma",
@@ -874,7 +953,8 @@ function get_all_talks(){
             start: "2025-02-05T03:00:00Z",
             duration: 1.0,
             moderators: ["Sonia Mahmoudi", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/Ks4Pq7PIvX8?si=sk6BPIQ1l3-r7McW"
           },
           {
             speaker: "Eleni Panagiotou",
@@ -884,7 +964,8 @@ function get_all_talks(){
             start: "2025-02-05T03:00:00Z",
             duration: 1.0,
             moderators: ["Qingying Deng", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: ""
           }
         ],
         [
@@ -903,6 +984,7 @@ function get_all_talks(){
             duration: 1.0,
             moderators: ["Qingying Deng", "Seongjeong Kim"],
             zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "",
           }
         ]
       ]
@@ -918,7 +1000,8 @@ function get_all_talks(){
             start: "2025-02-05T12:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: ""
           },
           {
             speaker: "Joanna Sułkowska",
@@ -928,7 +1011,8 @@ function get_all_talks(){
             start: "2025-02-05T12:00:00Z",
             duration: 1.0,
             moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: ""
           },
           {
             speaker: "Ioannis Diamantis",
@@ -938,7 +1022,8 @@ function get_all_talks(){
             start: "2025-02-05T12:00:00Z",
             duration: 1.0,
             moderators: ["Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/gq_8873YjKY?si=twpWSU68dZsqfrva"
           }
         ],
         [
@@ -950,7 +1035,8 @@ function get_all_talks(){
             start: "2025-02-05T13:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/1Yue-M5LLz4?si=6m8LT2uKaLKBPu7B"
           },
           {
             speaker: "Kanako Oshiro",
@@ -960,7 +1046,8 @@ function get_all_talks(){
             start: "2025-02-05T13:00:00Z",
             duration: 1.0,
             moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/FS-r-rE6Cz4?si=zaj4zLjMt-CA31ps"
           },
           {
             speaker: "Joanna Kania-Bartoszynska",
@@ -970,7 +1057,8 @@ function get_all_talks(){
             start: "2025-02-05T13:00:00Z",
             duration: 1.0,
             moderators: ["Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/AOzHaZokSKo?si=HgzSNE11pD1CRg6v"
           }
         ],
         [
@@ -982,7 +1070,8 @@ function get_all_talks(){
             start: "2025-02-05T14:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/iTNMi-8cUZk?si=UzabGIhIGpNNe6XJ"
           },
           {
             speaker: "Stefan Klaus",
@@ -992,7 +1081,8 @@ function get_all_talks(){
             start: "2025-02-05T14:00:00Z",
             duration: 1.0,
             moderators: ["Paolo Cavicchioli", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/aEfb4p8tpEk?si=2B5xMRTS7Qd4mvVo"
           },
           {
             speaker: "Valeriy Bardakov",
@@ -1002,7 +1092,8 @@ function get_all_talks(){
             start: "2025-02-05T14:00:00Z",
             duration: 1.0,
             moderators: ["Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/qyphltmQi6Y?si=sbnWye6FbLprfoj1"
           }
         ]
       ],
@@ -1015,7 +1106,8 @@ function get_all_talks(){
           start: "2025-02-05T18:00:00Z",
           duration: 1.0,
           moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/MzdbCmvVZy0?si=0sP2LPI5DsoBE3mn"
         },
         [
           {
@@ -1026,7 +1118,8 @@ function get_all_talks(){
             start: "2025-02-05T19:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/adpDR2XoosM?si=vjxrO2RFhL2T185u"
           },
           {
             speaker: "Igor Nikonov",
@@ -1036,7 +1129,8 @@ function get_all_talks(){
             start: "2025-02-05T19:00:00Z",
             duration: 1.0,
             moderators: ["Igor Nikonov", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/d8EtYLtDwaw?si=bzmvqpX3wj4Smet0"
           },
           {
             speaker: "Elisabetta Matsumoto",
@@ -1046,7 +1140,8 @@ function get_all_talks(){
             start: "2025-02-05T19:00:00Z",
             duration: 1.0,
             moderators: ["Lucrezia Lorenzi", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: ""
           }
         ],
         [
@@ -1058,7 +1153,8 @@ function get_all_talks(){
             start: "2025-02-05T20:00:00Z",
             duration: 1.0,
             moderators: ["Sofia Lambropoulou", "Illia Rohozhkin"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/Gni2gIwNEKc?si=cuFi1c9_evv8bbLV"
           },
           {
             speaker: "Thomas Kindred",
@@ -1068,7 +1164,8 @@ function get_all_talks(){
             start: "2025-02-05T20:00:00Z",
             duration: 1.0,
             moderators: ["Igor Nikonov", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/zmUzRShZ5u0?si=SS3ck900imUD2koY"
           },
           {
             speaker: "Ivan Dynnikov",
@@ -1078,7 +1175,8 @@ function get_all_talks(){
             start: "2025-02-05T20:00:00Z",
             duration: 1.0,
             moderators: ["Lucrezia Lorenzi", "Illia Rohozhkin"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/gsR_CLvjgrs?si=2GwC-qXEQ0PUxvYJ"
           }
         ]
       ],
@@ -1091,7 +1189,8 @@ function get_all_talks(){
           start: "2025-02-06T01:00:00Z",
           duration: 1.0,
           moderators: ["Colin Adams", "Seongjeong Kim"],
-          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+          zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+          youtube_link: "https://youtu.be/AV1S6ZtGAPU?si=moGknvd-T-wpd_Ag"
         },
         [// section 1
           {
@@ -1102,7 +1201,8 @@ function get_all_talks(){
             start: "2025-02-06T02:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/8GD2aUBmQ_E?si=jJpPpsUR4RFwUxEp"
           },
           {
             speaker: "Carmen Caprau",
@@ -1112,7 +1212,8 @@ function get_all_talks(){
             start: "2025-02-06T02:00:00Z",
             duration: 1.0,
             moderators: ["Sonia Mahmoudi", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/n0aYg0nLzv0?si=Cvu3DoOG1cel_nI0"
           },
           {
             speaker: "Mohamed Elhamdadi",
@@ -1122,7 +1223,8 @@ function get_all_talks(){
             start: "2025-02-06T02:00:00Z",
             duration: 1.0,
             moderators: ["Qingying Deng", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: "https://youtu.be/JjvEBbp3hIw?si=edeZTFAQFR9ifVtN"
           }
         ],
         [// section 2
@@ -1134,7 +1236,8 @@ function get_all_talks(){
             start: "2025-02-06T03:00:00Z",
             duration: 1.0,
             moderators: ["Colin Adams", "Seongjeong Kim"],
-            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1"
+            zoom_link: "https://us05web.zoom.us/j/84384557134?pwd=olg7kcwdzwHBpEu00CYaDa5Z1In2lJ.1",
+            youtube_link: "https://youtu.be/lECkYqzF7Ko?si=2uP48GuNzJdwO5zI"
           },
           {
             speaker: "Andrei Vesnin",
@@ -1144,7 +1247,8 @@ function get_all_talks(){
             start: "2025-02-06T03:00:00Z",
             duration: 1.0,
             moderators: ["Sonia Mahmoudi", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1"
+            zoom_link: "https://us06web.zoom.us/j/89115858520?pwd=ylJT60a5sJ5F3Z9AjMC4vXcVU4q0dq.1",
+            youtube_link: "https://youtu.be/nPrb24s2KrU?si=N2huQ-X5EH04wrMu"
           },
           {
             speaker: "Martin Scharlemann",
@@ -1154,7 +1258,8 @@ function get_all_talks(){
             start: "2025-02-06T03:00:00Z",
             duration: 1.0,
             moderators: ["Qingying Deng", "Seongjeong Kim"],
-            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1"
+            zoom_link: "https://us06web.zoom.us/j/86473418315?pwd=nBY99agI3k9bQb1g1wlnaBbToK5YIg.1",
+            youtube_link: ""
           }
         ]
       ]
